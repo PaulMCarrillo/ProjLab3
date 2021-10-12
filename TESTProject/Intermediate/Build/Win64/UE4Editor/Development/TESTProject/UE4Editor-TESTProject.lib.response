@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-TESTProject.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Unreal Projects\ProjectLab3-main\TESTProject\Intermediate\Build\Win64\TESTProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Unreal Projects\ProjectLab3-main\TESTProject\Intermediate\Build\Win64\UE4Editor\Development\TESTProject\MyClass.cpp.obj"
+"D:\Unreal Projects\ProjectLab3-main\TESTProject\Intermediate\Build\Win64\UE4Editor\Development\TESTProject\TESTProject.cpp.obj"
+"D:\Unreal Projects\ProjectLab3-main\TESTProject\Intermediate\Build\Win64\UE4Editor\Development\TESTProject\yourBlueprintFunctionLibrary.cpp.obj"
+"D:\Unreal Projects\ProjectLab3-main\TESTProject\Intermediate\Build\Win64\UE4Editor\Development\TESTProject\TESTProject.init.gen.cpp.obj"
+"D:\Unreal Projects\ProjectLab3-main\TESTProject\Intermediate\Build\Win64\UE4Editor\Development\TESTProject\yourBlueprintFunctionLibrary.gen.cpp.obj"
+"D:\Unreal Projects\ProjectLab3-main\TESTProject\Intermediate\Build\Win64\UE4Editor\Development\TESTProject\Default.rc2.res"
+/OUT:"D:\Unreal Projects\ProjectLab3-main\TESTProject\Intermediate\Build\Win64\UE4Editor\Development\TESTProject\UE4Editor-TESTProject.lib"

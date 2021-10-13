@@ -32,6 +32,7 @@
 /wd4244
 /wd4838
 /I .
+/I "D:\Unreal Projects\ProjectLab3-main\TESTProject\Source\TESTProject\Private"
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 /I Runtime
 /I Runtime\Engine\Classes
@@ -233,6 +234,7 @@
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I "D:\Unreal Projects\ProjectLab3-main\TESTProject\Intermediate\Build\Win64\UE4Editor\Inc\TESTProject"
 /I "D:\Unreal Projects\ProjectLab3-main\TESTProject\Source"
+/I "D:\Unreal Projects\ProjectLab3-main\TESTProject\Source\TESTProject\Public"
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf

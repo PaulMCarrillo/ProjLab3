@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TESTProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{9ECCB2C0-9256-404C-88DF-B0CBFC57327B}</UniqueIdentifier>
+      <UniqueIdentifier>{36E0217A-BFBE-4AEB-883B-C82544D41A8C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TESTProject.Target.cs">
       <Filter>Source</Filter>
@@ -11,22 +11,26 @@
     <None Include="..\..\Source\TESTProjectEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.ignore" />
     <None Include="..\..\PN_OpenWorldFoliage.png" />
     <None Include="..\..\TESTProject.code-workspace" />
     <Filter Include="Config">
-      <UniqueIdentifier>{7DBB4EA0-912A-4CF3-BF08-90141D7A0F95}</UniqueIdentifier>
+      <UniqueIdentifier>{1E53CF32-9180-4F4B-B122-3075142A627E}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Config\Github">
-      <UniqueIdentifier>{2FEF7AFA-5090-4AE2-ACBC-53C9B51459C9}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Config\Github\Workflow">
-      <UniqueIdentifier>{C540606B-F907-4153-90FA-A542BE30E8F9}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Config\Github\Workflow\main.yml">
-      <Filter>Config\Github\Workflow</Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
     </None>
     <Filter Include="Source\TESTProject">
-      <UniqueIdentifier>{1A0C2555-363A-4DB5-8A1C-1398D08AE6C5}</UniqueIdentifier>
+      <UniqueIdentifier>{E5B4506E-5682-4F3D-A5C1-DF82DCCDA1EC}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TESTProject\TESTProject.Build.cs">
       <Filter>Source\TESTProject</Filter>
@@ -44,13 +48,13 @@
       <Filter>Source\TESTProject</Filter>
     </ClInclude>
     <Filter Include="Source\TESTProject\Private">
-      <UniqueIdentifier>{D1945480-E535-4BD9-B45A-7D5602BC79FD}</UniqueIdentifier>
+      <UniqueIdentifier>{37904477-730C-47AE-898B-E6076CE28466}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\TESTProject\Private\MyClass.cpp">
       <Filter>Source\TESTProject\Private</Filter>
     </ClCompile>
     <Filter Include="Source\TESTProject\Public">
-      <UniqueIdentifier>{FC64156C-DB3F-487B-8897-FACD89F35E47}</UniqueIdentifier>
+      <UniqueIdentifier>{09020965-7ABF-497C-AEF0-372E4B902AFC}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\TESTProject\Public\MyClass.h">
       <Filter>Source\TESTProject\Public</Filter>

@@ -9,5 +9,5 @@
 F:\UE_4.27\Engine\Build\Windows\Resources\Default-Win64.manifest : manifest authoring warning 81010002: Unrecognized Element "longPathAware" in namespace "http://schemas.microsoft.com/SMI/2016/WindowsSettings".
     
     [2/2] TESTProjectEditor.target
-  Total time in Parallel executor: 1.21 seconds
-  Total execution time: 3.95 seconds
+  Total time in Parallel executor: 1.64 seconds
+  Total execution time: 4.21 seconds

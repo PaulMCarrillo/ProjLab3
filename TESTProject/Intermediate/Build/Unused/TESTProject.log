@@ -1,0 +1,13 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\ProjLab3).
+  Creating makefile for TESTProjectEditor (no existing makefile)
+  Building TESTProjectEditor...
+  Using Visual Studio 2019 14.28.29913 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29910) and Windows 8.1 SDK (C:\Program Files (x86)\Windows Kits\8.1).
+  Building 2 actions with 8 processes...
+    [1/2] UE4Editor-TESTProject.dll
+       Creating library E:\ProjLab3\TESTProject\Intermediate\Build\Win64\UE4Editor\Development\TESTProject\UE4Editor-TESTProject.suppressed.lib and object E:\ProjLab3\TESTProject\Intermediate\Build\Win64\UE4Editor\Development\TESTProject\UE4Editor-TESTProject.suppressed.exp
+    
+F:\UE_4.27\Engine\Build\Windows\Resources\Default-Win64.manifest : manifest authoring warning 81010002: Unrecognized Element "longPathAware" in namespace "http://schemas.microsoft.com/SMI/2016/WindowsSettings".
+    
+    [2/2] TESTProjectEditor.target
+  Total time in Parallel executor: 1.64 seconds
+  Total execution time: 4.21 seconds

@@ -5,7 +5,6 @@
 *.slo
 *.lo
 *.o
-*.obj
 
 # Precompiled Headers
 *.gch
@@ -42,8 +41,6 @@
 *.VC.opendb
 
 # Precompiled Assets
-SourceArt/**/*.png
-SourceArt/**/*.tga
 
 # Binary Files
 Binaries/*

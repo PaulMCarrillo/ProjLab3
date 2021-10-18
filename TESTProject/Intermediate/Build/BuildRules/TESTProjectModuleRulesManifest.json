@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"D:\\Unreal Projects\\ProjectLab3-main\\TESTProject\\Source\\TESTProject\\TESTProject.Build.cs",
-		"D:\\Unreal Projects\\ProjectLab3-main\\TESTProject\\Source\\TESTProject.Target.cs",
-		"D:\\Unreal Projects\\ProjectLab3-main\\TESTProject\\Source\\TESTProjectEditor.Target.cs"
+		"E:\\ProjLab3\\TESTProject\\Source\\TESTProject\\TESTProject.Build.cs",
+		"E:\\ProjLab3\\TESTProject\\Source\\TESTProject.Target.cs",
+		"E:\\ProjLab3\\TESTProject\\Source\\TESTProjectEditor.Target.cs"
 	],
-	"EngineVersion": "4.27.0"
+	"EngineVersion": "4.27.1"
 }

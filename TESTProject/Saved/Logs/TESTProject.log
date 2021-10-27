@@ -3773,3 +3773,152 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.10.27-17.26.25:462][856]LogSavePackage: Moving '../../../../../GitHub/ProjLab3/TESTProject/Saved/TheWeatherE25A896A464C27A07402A5B971F827C7.tmp' to '../../../../../GitHub/ProjLab3/TESTProject/Content/Levels/TheWeather.umap'
 [2021.10.27-17.26.25:481][856]AssetCheck: New page: Asset Save: TheWeather
 [2021.10.27-17.26.25:481][856]LogContentValidation: Display: Validating World /Game/Levels/TheWeather.TheWeather
+[2021.10.27-17.29.06:960][570]LogUObjectHash: Compacting FUObjectHashTables data took   3.98ms
+[2021.10.27-17.29.07:061][570]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/StatsHall.StatsHall
+[2021.10.27-17.29.07:061][570]Cmd: MAP LOAD FILE="../../../../../GitHub/ProjLab3/TESTProject/Content/Levels/StatsHall.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.10.27-17.29.07:061][570]LightingResults: New page: Lighting Build
+[2021.10.27-17.29.07:061][570]LoadErrors: New page: Loading map: StatsHall.umap
+[2021.10.27-17.29.07:063][570]LogWorld: UWorld::CleanupWorld for TheWeather, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-17.29.07:064][570]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-17.29.07:064][570]MapCheck: New page: Map Check
+[2021.10.27-17.29.07:064][570]LightingResults: New page: Lighting Build
+[2021.10.27-17.29.07:081][570]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.27-17.29.07:087][570]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2021.10.27-17.29.07:087][570]LogAudio: Display: Audio Device (ID: 1) registered with world 'StatsHall'.
+[2021.10.27-17.29.07:092][570]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.10.27-17.29.07:092][570]LogAIModule: Creating AISystem for world StatsHall
+[2021.10.27-17.29.07:114][570]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2021.10.27-17.29.07:120][570]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.10.27-17.29.07:121][570]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.08ms to complete.
+[2021.10.27-17.29.07:121][570]LogFileHelpers: Loading map 'StatsHall' took 0.060
+[2021.10.27-17.29.10:869][788]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2021.10.27-17.29.12:468][881]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2021.10.27-17.56.30:970][654]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (1M_Cube)
+[2021.10.27-17.56.32:469][715]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2021.10.27-17.56.37:321][  5]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2021.10.27-17.56.45:953][520]MapCheck: New page: Map Check
+[2021.10.27-17.56.45:978][520]LightingResults: New page: Lighting Build - Oct 27, 2021, 7:56:45 AM
+[2021.10.27-17.56.46:039][520]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.10.27-17.56.46:051][520]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.10.27-17.56.46:052][520]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.10.27-17.56.46:057][520]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.10.27-17.56.46:057][520]LogSwarmInterface: [TryOpenConnection] Local Process ID is 17164
+[2021.10.27-17.56.50:621][520]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2021.10.27-17.56.50:621][520]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.10.27-17.56.50:621][520]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.10.27-17.56.50:621][520]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.10.27-17.56.50:621][520]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.10.27-17.56.50:621][520]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.10.27-17.56.50:776][520]LogEditorBuildUtils: Build time 0:04
+[2021.10.27-17.56.50:897][521]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2021.10.27-17.56.50:897][521]LogShaderCompilers: Display: Total job queries 6, among them cache hits 0 (0.00%)
+[2021.10.27-17.56.50:897][521]LogShaderCompilers: Display: Tracking 6 distinct input hashes that result in 6 distinct outputs (100.00%)
+[2021.10.27-17.56.50:897][521]LogShaderCompilers: Display: RAM used: 0.02 MB (0.00 GB) of 614.40 MB (0.60 GB) budget. Usage: 0.00%
+[2021.10.27-17.56.50:897][521]LogShaderCompilers: Display: ================================================
+[2021.10.27-17.56.51:073][524]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2021.10.27-17.56.52:212][558]Job is a success!
+[2021.10.27-17.56.52:471][559]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.012s
+[2021.10.27-17.56.52:471][559]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2021.10.27-17.56.52:471][559]LogVolumetricLightmapImport:      BrickData (all levels) 0.0Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2021.10.27-17.56.52:471][559]LogVolumetricLightmapImport:      Bricks at depth
+[2021.10.27-17.56.52:471][559]LogVolumetricLightmapImport:          0: 14.3% covering 100.0% of volume
+[2021.10.27-17.56.52:471][559]LogVolumetricLightmapImport:          1: 14.3% covering 1.6% of volume
+[2021.10.27-17.56.52:471][559]LogVolumetricLightmapImport:          2: 71.4% covering 0.1% of volume
+[2021.10.27-17.56.52:471][559]LogVolumetricLightmapImport:      Bricks in each level
+[2021.10.27-17.56.52:471][559]LogVolumetricLightmapImport:          StatsHall 			 7 bricks 	 100.0% (Persistent Level)
+[2021.10.27-17.56.52:507][559]LogTexture: Display: Building textures: HQ_Lightmap1_1 (OODLE_AutoDXT, 256X256)
+[2021.10.27-17.56.52:507][559]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (OODLE_DXT1, 64X64)
+[2021.10.27-17.56.52:507][559]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (OODLE_DXT1, 256X256)
+[2021.10.27-17.56.52:507][559]LogTexture: Display: Building textures: HQ_Lightmap1_2 (OODLE_AutoDXT, 64X64)
+[2021.10.27-17.56.52:507][559]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2021.10.27-17.56.52:507][559]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 512X64)
+[2021.10.27-17.56.52:507][559]LogStaticLightingSystem: StatsHall_BuiltData storing lightmap data for 7 meshes in 2 LightmapResourceClusters (3.5 Meshes per cluster).
+[2021.10.27-17.56.52:529][559]Lightmass on LAPTOP-0HS98A9K: 869 ms total, 117 ms importing, 5 ms setup, 104 ms photons, 564 ms processing, 0 ms extra exporting [7/7 mappings]. Threads: 3.93 sec total, 497 ms processing.
+[2021.10.27-17.56.52:532][559]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2021.10.27-17.56.52:597][559]LogStaticLightingSystem: Illumination: 6.51 sec (12 ms encoding lightmaps, 13 ms encoding shadowmaps)
+[2021.10.27-17.56.52:597][559]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2021.10.27-17.56.52:597][559]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2021.10.27-17.56.52:634][559]DumpUnbuiltLightIteractions
+[2021.10.27-17.56.52:634][559]Lights with unbuilt interactions: 0
+[2021.10.27-17.56.52:634][559]
+[2021.10.27-17.56.52:634][559]Primitives with unbuilt interactions: 0
+[2021.10.27-17.56.52:793][560]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.10.27-17.56.52:794][560]MapCheck: New page: StatsHall - Oct 27, 2021, 7:56:52 AM
+[2021.10.27-17.56.52:794][560]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.526ms to complete.
+[2021.10.27-17.57.20:623][825]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2021.10.27-17.57.20:639][825]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/StatsHall" FILE="../../../../../GitHub/ProjLab3/TESTProject/Saved/Autosaves/Game/Levels/StatsHall_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2021.10.27-17.57.20:655][825]LogSavePackage: Moving '../../../../../GitHub/ProjLab3/TESTProject/Saved/StatsHall_Auto19635C858484EDC2777FCF28121783E2C.tmp' to '../../../../../GitHub/ProjLab3/TESTProject/Saved/Autosaves/Game/Levels/StatsHall_Auto1.umap'
+[2021.10.27-17.57.20:670][825]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/StatsHall' took 0.069
+[2021.10.27-17.57.20:670][825]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.069
+[2021.10.27-18.07.20:918][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2021.10.27-18.07.20:919][617]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/StatsHall' took 0.023
+[2021.10.27-18.13.20:085][838]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/StatsHall" FILE="../../../../../GitHub/ProjLab3/TESTProject/Content/Levels/StatsHall.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.10.27-18.13.20:105][838]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2021.10.27-18.13.20:128][838]LogSavePackage: Moving '../../../../../GitHub/ProjLab3/TESTProject/Saved/StatsHallEC0C968642BE6D4D9D2E6E85C91EFA97.tmp' to '../../../../../GitHub/ProjLab3/TESTProject/Content/Levels/StatsHall.umap'
+[2021.10.27-18.13.20:286][838]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/StatsHall_BuiltData" FILE="../../../../../GitHub/ProjLab3/TESTProject/Content/Levels/StatsHall_BuiltData.uasset" SILENT=true
+[2021.10.27-18.13.20:320][838]LogSavePackage: Moving '../../../../../GitHub/ProjLab3/TESTProject/Saved/StatsHall_BuiltData7F33FE644FA2E8F8B73BF783871D1E03.tmp' to '../../../../../GitHub/ProjLab3/TESTProject/Content/Levels/StatsHall_BuiltData.uasset'
+[2021.10.27-18.13.20:368][838]AssetCheck: New page: Asset Save: multiple assets
+[2021.10.27-18.13.20:368][838]LogContentValidation: Display: Validating World /Game/Levels/StatsHall.StatsHall
+[2021.10.27-18.13.20:368][838]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/StatsHall_BuiltData.StatsHall_BuiltData
+[2021.10.27-18.18.07:001][932]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/StatsHall" FILE="../../../../../GitHub/ProjLab3/TESTProject/Content/Levels/StatsHall.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.10.27-18.18.07:028][932]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2021.10.27-18.18.07:048][932]LogSavePackage: Moving '../../../../../GitHub/ProjLab3/TESTProject/Saved/StatsHall16EAD95E4359B543534EABAC2EC70094.tmp' to '../../../../../GitHub/ProjLab3/TESTProject/Content/Levels/StatsHall.umap'
+[2021.10.27-18.18.07:177][932]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/StatsHall_BuiltData" FILE="../../../../../GitHub/ProjLab3/TESTProject/Content/Levels/StatsHall_BuiltData.uasset" SILENT=true
+[2021.10.27-18.18.07:187][932]LogSavePackage: Moving '../../../../../GitHub/ProjLab3/TESTProject/Saved/StatsHall_BuiltDataBD58D99B4576FC86600A37823EFC8524.tmp' to '../../../../../GitHub/ProjLab3/TESTProject/Content/Levels/StatsHall_BuiltData.uasset'
+[2021.10.27-18.18.07:197][932]AssetCheck: New page: Asset Save: multiple assets
+[2021.10.27-18.18.07:197][932]LogContentValidation: Display: Validating World /Game/Levels/StatsHall.StatsHall
+[2021.10.27-18.18.07:197][932]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/StatsHall_BuiltData.StatsHall_BuiltData
+[2021.10.27-18.18.08:732][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2021.10.27-18.18.08:904][ 23]LogSlate: Window 'TESTProject - Unreal Editor' being destroyed
+[2021.10.27-18.18.09:704][ 24]Cmd: QUIT_EDITOR
+[2021.10.27-18.18.09:704][ 24]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2021.10.27-18.18.09:798][ 24]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2021.10.27-18.18.10:055][ 24]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2021.10.27-18.18.10:055][ 24]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2021.10.27-18.18.10:056][ 24]LogAudio: Display: Audio Device unregistered from world 'StatsHall'.
+[2021.10.27-18.18.10:056][ 24]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2021.10.27-18.18.10:056][ 24]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-18.18.10:058][ 24]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-18.18.10:135][ 24]LogAudio: Display: Audio Device Manager Shutdown
+[2021.10.27-18.18.10:142][ 24]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.10.27-18.18.10:155][ 24]LogExit: Preparing to exit.
+[2021.10.27-18.18.11:467][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2021.10.27-18.18.12:403][ 24]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.10.27-18.18.12:403][ 24]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.10.27-18.18.12:403][ 24]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.10.27-18.18.12:403][ 24]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.10.27-18.18.12:403][ 24]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.10.27-18.18.12:403][ 24]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.10.27-18.18.12:403][ 24]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.10.27-18.18.12:403][ 24]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-18.18.12:406][ 24]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.10.27-18.18.12:406][ 24]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.10.27-18.18.12:406][ 24]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.10.27-18.18.12:406][ 24]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.10.27-18.18.12:406][ 24]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.10.27-18.18.12:406][ 24]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.10.27-18.18.12:406][ 24]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.10.27-18.18.12:406][ 24]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-18.18.12:408][ 24]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-18.18.12:411][ 24]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-18.18.12:413][ 24]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.10.27-18.18.12:413][ 24]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.10.27-18.18.12:413][ 24]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.10.27-18.18.12:413][ 24]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.10.27-18.18.12:413][ 24]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.10.27-18.18.12:413][ 24]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.10.27-18.18.12:413][ 24]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.10.27-18.18.12:413][ 24]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-18.18.12:415][ 24]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-18.18.12:417][ 24]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-18.18.12:730][ 24]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2021.10.27-18.18.13:137][ 24]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-18.18.13:138][ 24]LogExit: Editor shut down
+[2021.10.27-18.18.13:141][ 24]LogExit: Transaction tracking system shut down
+[2021.10.27-18.18.16:728][ 24]LogExit: Object subsystem successfully closed.
+[2021.10.27-18.18.16:749][ 24]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2021.10.27-18.18.16:750][ 24]LogShaderCompilers: Display: Total job queries 6, among them cache hits 0 (0.00%)
+[2021.10.27-18.18.16:750][ 24]LogShaderCompilers: Display: Tracking 6 distinct input hashes that result in 6 distinct outputs (100.00%)
+[2021.10.27-18.18.16:750][ 24]LogShaderCompilers: Display: RAM used: 0.02 MB (0.00 GB) of 614.40 MB (0.60 GB) budget. Usage: 0.00%
+[2021.10.27-18.18.16:750][ 24]LogShaderCompilers: Display: ================================================
+[2021.10.27-18.18.16:906][ 24]LogShaderCompilers: Display: Shaders left to compile 0

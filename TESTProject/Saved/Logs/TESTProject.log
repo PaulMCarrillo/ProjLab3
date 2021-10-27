@@ -2143,3 +2143,1633 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.10.27-17.16.21:979][794]AssetCheck: New page: Asset Save: multiple assets
 [2021.10.27-17.16.21:979][794]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/AQIMap_BuiltData.AQIMap_BuiltData
 [2021.10.27-17.16.21:979][794]LogContentValidation: Display: Validating World /Game/Levels/AQIMap.AQIMap
+[2021.10.27-17.17.41:333][686]MapCheck: New page: Map Check
+[2021.10.27-17.17.41:358][686]LightingResults: New page: Lighting Build - Oct 27, 2021, 7:17:41 AM
+[2021.10.27-17.17.41:364][686]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.10.27-17.17.41:368][686]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.10.27-17.17.41:368][686]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.10.27-17.17.41:370][686]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.10.27-17.17.41:370][686]LogSwarmInterface: [TryOpenConnection] Local Process ID is 17164
+[2021.10.27-17.17.45:927][686]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.10.27-17.17.45:927][686]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.10.27-17.17.45:927][686]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.10.27-17.17.45:927][686]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.10.27-17.17.45:927][686]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.10.27-17.17.46:059][686]LogEditorBuildUtils: Build time 0:04
+[2021.10.27-17.17.46:068][686]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2021.10.27-17.17.46:068][686]LogShaderCompilers: Display: Total job queries 6, among them cache hits 0 (0.00%)
+[2021.10.27-17.17.46:068][686]LogShaderCompilers: Display: Tracking 6 distinct input hashes that result in 6 distinct outputs (100.00%)
+[2021.10.27-17.17.46:068][686]LogShaderCompilers: Display: RAM used: 0.02 MB (0.00 GB) of 614.40 MB (0.60 GB) budget. Usage: 0.00%
+[2021.10.27-17.17.46:068][686]LogShaderCompilers: Display: ================================================
+[2021.10.27-17.17.46:203][688]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2021.10.27-17.17.50:966][932]Job is a success!
+[2021.10.27-17.17.51:252][933]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.012s
+[2021.10.27-17.17.51:252][933]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2021.10.27-17.17.51:252][933]LogVolumetricLightmapImport:      BrickData (all levels) 0.0Mb
+[2021.10.27-17.17.51:252][933]LogVolumetricLightmapImport:      Bricks at depth
+[2021.10.27-17.17.51:252][933]LogVolumetricLightmapImport:          0: 11.1% covering 100.0% of volume
+[2021.10.27-17.17.51:252][933]LogVolumetricLightmapImport:          1: 11.1% covering 1.6% of volume
+[2021.10.27-17.17.51:252][933]LogVolumetricLightmapImport:          2: 77.8% covering 0.2% of volume
+[2021.10.27-17.17.51:252][933]LogVolumetricLightmapImport:      Bricks in each level
+[2021.10.27-17.17.51:252][933]LogVolumetricLightmapImport:          AQIMap 			 9 bricks 	 100.0% (Persistent Level)
+[2021.10.27-17.17.51:494][933]LogTexture: Display: Building textures: HQ_Lightmap0_2 (OODLE_AutoDXT, 64X64)
+[2021.10.27-17.17.51:495][933]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (OODLE_DXT1, 64X64)
+[2021.10.27-17.17.51:495][933]LogTexture: Display: Building textures: HQ_Lightmap0_1 (OODLE_AutoDXT, 1024X1024)
+[2021.10.27-17.17.51:495][933]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (OODLE_DXT1, 1024X1024)
+[2021.10.27-17.17.51:495][933]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2021.10.27-17.17.51:495][933]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2021.10.27-17.17.51:662][933]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 32X32)
+[2021.10.27-17.17.51:662][933]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 1024X512)
+[2021.10.27-17.17.51:662][933]LogStaticLightingSystem: AQIMap_BuiltData storing lightmap data for 50 meshes in 3 LightmapResourceClusters (16.7 Meshes per cluster).
+[2021.10.27-17.17.51:673][933]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2021.10.27-17.17.51:679][933]Lightmass on LAPTOP-0HS98A9K: 4.95 sec total, 397 ms importing, 45 ms setup, 630 ms photons, 3.80 sec processing, 0 ms extra exporting [50/50 mappings]. Threads: 26.6 sec total, 8.64 sec processing.
+[2021.10.27-17.17.51:726][933]LogStaticLightingSystem: Illumination: 10.2 sec (217 ms encoding lightmaps, 139 ms encoding shadowmaps)
+[2021.10.27-17.17.51:726][933]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (2.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2021.10.27-17.17.51:726][933]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2021.10.27-17.17.51:934][933]DumpUnbuiltLightIteractions
+[2021.10.27-17.17.51:934][933]Lights with unbuilt interactions: 0
+[2021.10.27-17.17.51:934][933]
+[2021.10.27-17.17.51:934][933]Primitives with unbuilt interactions: 0
+[2021.10.27-17.17.52:019][933]LogTexture: Display: Building textures: NewReflectionComponentTextureEB9CBE3C423008B5E8E130901E171C89 (BGRA8, 128X128)
+[2021.10.27-17.17.52:074][934]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.10.27-17.17.52:074][934]MapCheck: New page: AQIMap - Oct 27, 2021, 7:17:52 AM
+[2021.10.27-17.17.52:074][934]MapCheck: Warning: 1M_Cube_19 Static mesh actor has NULL StaticMesh property 
+[2021.10.27-17.17.52:075][934]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 0.692ms to complete.
+[2021.10.27-17.18.14:797][268]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2021.10.27-17.18.16:038][268]LogSlate: Window 'Save Content' being destroyed
+[2021.10.27-17.18.16:219][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/AQIMap_BuiltData" FILE="../../../../../GitHub/ProjLab3/TESTProject/Content/Levels/AQIMap_BuiltData.uasset" SILENT=true
+[2021.10.27-17.18.16:333][268]LogSavePackage: Moving '../../../../../GitHub/ProjLab3/TESTProject/Saved/AQIMap_BuiltData91F8B35A4C917E75D8A3B8994BDD800A.tmp' to '../../../../../GitHub/ProjLab3/TESTProject/Content/Levels/AQIMap_BuiltData.uasset'
+[2021.10.27-17.18.16:392][268]LogProperty: Error: FStructProperty::Serialize Loading: Property 'StructProperty /Game/TodayDate.TodayDate_C:ExecuteUbergraph_TodayDate:CallFunc_GetDataTableRowFromName_OutRow'. Unknown structure.
+[2021.10.27-17.18.16:523][268]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/TheWeather.TheWeather
+[2021.10.27-17.18.16:523][268]Cmd: MAP LOAD FILE="../../../../../GitHub/ProjLab3/TESTProject/Content/Levels/TheWeather.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.10.27-17.18.16:523][268]LightingResults: New page: Lighting Build
+[2021.10.27-17.18.16:523][268]LoadErrors: New page: Loading map: TheWeather.umap
+[2021.10.27-17.18.16:526][268]LogWorld: UWorld::CleanupWorld for AQIMap, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-17.18.16:526][268]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-17.18.16:526][268]MapCheck: New page: Map Check
+[2021.10.27-17.18.16:526][268]LightingResults: New page: Lighting Build
+[2021.10.27-17.18.16:534][268]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.27-17.18.16:539][268]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2021.10.27-17.18.16:565][268]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2021.10.27-17.18.16:575][268]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2021.10.27-17.18.16:575][268]LogAudio: Display: Audio Device (ID: 1) registered with world 'TheWeather'.
+[2021.10.27-17.18.16:582][268]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.10.27-17.18.16:582][268]LogAIModule: Creating AISystem for world TheWeather
+[2021.10.27-17.18.16:593][268]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2021.10.27-17.18.16:600][268]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.10.27-17.18.16:600][268]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.081ms to complete.
+[2021.10.27-17.18.16:600][268]LogFileHelpers: Loading map 'TheWeather' took 0.077
+[2021.10.27-17.18.16:624][268]AssetCheck: New page: Asset Save: AQIMap_BuiltData
+[2021.10.27-17.18.16:624][268]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/AQIMap_BuiltData.AQIMap_BuiltData
+[2021.10.27-17.18.21:520][560]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (spruce_full_01)
+[2021.10.27-17.18.31:747][167]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2021.10.27-17.18.31:866][167]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/StatsHall.StatsHall
+[2021.10.27-17.18.31:867][167]Cmd: MAP LOAD FILE="../../../../../GitHub/ProjLab3/TESTProject/Content/Levels/StatsHall.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.10.27-17.18.31:867][167]LightingResults: New page: Lighting Build
+[2021.10.27-17.18.31:867][167]LoadErrors: New page: Loading map: StatsHall.umap
+[2021.10.27-17.18.31:869][167]LogWorld: UWorld::CleanupWorld for TheWeather, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-17.18.31:869][167]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-17.18.31:869][167]MapCheck: New page: Map Check
+[2021.10.27-17.18.31:869][167]LightingResults: New page: Lighting Build
+[2021.10.27-17.18.31:878][167]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.27-17.18.31:919][167]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2021.10.27-17.18.31:920][167]LogAudio: Display: Audio Device (ID: 1) registered with world 'StatsHall'.
+[2021.10.27-17.18.31:924][167]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.10.27-17.18.31:924][167]LogAIModule: Creating AISystem for world StatsHall
+[2021.10.27-17.18.31:937][167]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2021.10.27-17.18.31:945][167]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.10.27-17.18.31:945][167]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.083ms to complete.
+[2021.10.27-17.18.31:945][167]LogFileHelpers: Loading map 'StatsHall' took 0.078
+[2021.10.27-17.18.34:407][309]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2021.10.27-17.18.34:454][309]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/TheWeather.TheWeather
+[2021.10.27-17.18.34:454][309]Cmd: MAP LOAD FILE="../../../../../GitHub/ProjLab3/TESTProject/Content/Levels/TheWeather.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.10.27-17.18.34:454][309]LightingResults: New page: Lighting Build
+[2021.10.27-17.18.34:454][309]LoadErrors: New page: Loading map: TheWeather.umap
+[2021.10.27-17.18.34:456][309]LogWorld: UWorld::CleanupWorld for StatsHall, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-17.18.34:456][309]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-17.18.34:456][309]MapCheck: New page: Map Check
+[2021.10.27-17.18.34:456][309]LightingResults: New page: Lighting Build
+[2021.10.27-17.18.34:466][309]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.27-17.18.34:469][309]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2021.10.27-17.18.34:469][309]LogAudio: Display: Audio Device (ID: 1) registered with world 'TheWeather'.
+[2021.10.27-17.18.34:474][309]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.10.27-17.18.34:474][309]LogAIModule: Creating AISystem for world TheWeather
+[2021.10.27-17.18.34:485][309]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2021.10.27-17.18.34:492][309]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.10.27-17.18.34:492][309]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.078ms to complete.
+[2021.10.27-17.18.34:492][309]LogFileHelpers: Loading map 'TheWeather' took 0.038
+[2021.10.27-17.18.39:134][572]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Levels/TheWeather.TheWeather:PersistentLevel.TheWeather
+[2021.10.27-17.18.39:770][572]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 126 classes and 0 folders.
+[2021.10.27-17.18.41:694][572]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.10.27-17.18.50:422][ 50]LogSlate: Window 'TheWeather' being destroyed
+[2021.10.27-17.18.50:436][ 50]LogSlate: Window 'TheWeather' being destroyed
+[2021.10.27-17.18.50:440][ 50]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-17.18.50:440][ 50]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-17.18.51:598][111]LogEditorViewport: Clicking on Actor (context menu): TheWeather_Sky_Sphere_C (TheWeather_Sky_Sphere)
+[2021.10.27-17.18.52:398][155]LogEditorViewport: Clicking on Actor (LMB): TheWeather_Sky_Sphere_C (TheWeather_Sky_Sphere)
+[2021.10.27-17.18.54:692][292]LogEditorViewport: Clicking on Actor (LMB): NextDayTriggerBox2_Blueprint_C (NextDayTriggerBox2_Blueprint)
+[2021.10.27-17.18.58:525][517]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Levels/NextDayTriggerBox2_Blueprint.NextDayTriggerBox2_Blueprint
+[2021.10.27-17.19.06:756][948]LogSlate: Window 'NextDayTriggerBox2_Blueprint' being destroyed
+[2021.10.27-17.19.06:770][948]LogSlate: Window 'NextDayTriggerBox2_Blueprint' being destroyed
+[2021.10.27-17.19.06:775][948]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-17.19.06:775][948]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-17.19.08:146][ 19]LogEditorViewport: Clicking on Actor (LMB): TriggerBox_Blueprint_C (PrevDay_TriggerBox_Blueprint)
+[2021.10.27-17.19.10:604][163]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TriggerBox_Blueprint.TriggerBox_Blueprint
+[2021.10.27-17.19.23:135][843]LogSlate: Window 'TriggerBox_Blueprint' being destroyed
+[2021.10.27-17.19.23:150][843]LogSlate: Window 'TriggerBox_Blueprint' being destroyed
+[2021.10.27-17.19.23:157][843]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-17.19.23:157][843]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-17.19.26:989][ 69]LogEditorViewport: Clicking on Actor (LMB): Sphere_Blueprint_C (Sphere_Blueprint)
+[2021.10.27-17.19.28:428][151]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Levels/Sphere_Blueprint.Sphere_Blueprint
+[2021.10.27-17.19.43:642][  6]LogSlate: Window 'Sphere_Blueprint' being destroyed
+[2021.10.27-17.19.43:656][  6]LogSlate: Window 'Sphere_Blueprint' being destroyed
+[2021.10.27-17.19.43:663][  6]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-17.19.43:663][  6]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-17.19.46:051][143]LogEditorViewport: Clicking on Actor (LMB): ViewingDate_C (ViewingDate)
+[2021.10.27-17.19.48:337][276]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ViewingDate.ViewingDate
+[2021.10.27-17.19.58:717][808]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ViewingDate" FILE="../../../../../GitHub/ProjLab3/TESTProject/Content/ViewingDate.uasset" SILENT=true
+[2021.10.27-17.19.58:750][808]LogSavePackage: Moving '../../../../../GitHub/ProjLab3/TESTProject/Saved/ViewingDate9FC8CDDB4D87C24F846BB3A7B9AD5A4E.tmp' to '../../../../../GitHub/ProjLab3/TESTProject/Content/ViewingDate.uasset'
+[2021.10.27-17.19.58:767][808]AssetCheck: New page: Asset Save: ViewingDate
+[2021.10.27-17.19.58:767][808]LogContentValidation: Display: Validating Blueprint /Game/ViewingDate.ViewingDate
+[2021.10.27-17.20.00:642][918]BlueprintLog: New page: Compile ViewingDate
+[2021.10.27-17.20.00:825][918]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2021.10.27-17.20.08:893][397]LogEditorTransaction: Undo Delete current selection
+[2021.10.27-17.20.10:718][483]LogEditorTransaction: Redo Delete current selection
+[2021.10.27-17.20.17:394][839]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ViewingDate" FILE="../../../../../GitHub/ProjLab3/TESTProject/Content/ViewingDate.uasset" SILENT=true
+[2021.10.27-17.20.17:416][839]LogSavePackage: Moving '../../../../../GitHub/ProjLab3/TESTProject/Saved/ViewingDate2E69ACC94C03718A1E35D7B3BCACC069.tmp' to '../../../../../GitHub/ProjLab3/TESTProject/Content/ViewingDate.uasset'
+[2021.10.27-17.20.17:428][839]AssetCheck: New page: Asset Save: ViewingDate
+[2021.10.27-17.20.17:428][839]LogContentValidation: Display: Validating Blueprint /Game/ViewingDate.ViewingDate
+[2021.10.27-17.20.18:166][881]BlueprintLog: New page: Compile ViewingDate
+[2021.10.27-17.20.18:231][881]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2021.10.27-17.20.23:507][173]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ViewingDate" FILE="../../../../../GitHub/ProjLab3/TESTProject/Content/ViewingDate.uasset" SILENT=true
+[2021.10.27-17.20.23:522][173]LogSavePackage: Moving '../../../../../GitHub/ProjLab3/TESTProject/Saved/ViewingDate349CA65B498679EFD8C9D1A8D540967F.tmp' to '../../../../../GitHub/ProjLab3/TESTProject/Content/ViewingDate.uasset'
+[2021.10.27-17.20.23:536][173]AssetCheck: New page: Asset Save: ViewingDate
+[2021.10.27-17.20.23:537][173]LogContentValidation: Display: Validating Blueprint /Game/ViewingDate.ViewingDate
+[2021.10.27-17.20.24:577][234]LogSlate: Window 'ViewingDate' being destroyed
+[2021.10.27-17.20.24:584][234]LogSlate: Window 'ViewingDate' being destroyed
+[2021.10.27-17.20.24:588][234]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-17.20.24:588][234]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-17.20.28:766][468]LogTemp: Repeating last play command: Simulate
+[2021.10.27-17.20.28:785][468]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.27-17.20.28:785][468]PIE: New page: SIE session: TheWeather (Oct 27, 2021, 7:20:28 AM)
+[2021.10.27-17.20.28:785][468]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TheWeather
+[2021.10.27-17.20.28:789][468]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004016s)
+[2021.10.27-17.20.28:790][468]LogAIModule: Creating AISystem for world TheWeather
+[2021.10.27-17.20.28:790][468]LogPlayLevel: PIE: World Init took: (0.001233s)
+[2021.10.27-17.20.28:791][468]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TheWeather.TheWeather to /Game/Levels/UEDPIE_0_TheWeather.TheWeather (0.005418s)
+[2021.10.27-17.20.28:815][468]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2021.10.27-17.20.28:817][468]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2021.10.27-17.20.28:817][468]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.27-17.20.28:817][468]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.27-17.20.28:817][468]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.27-17.20.28:817][468]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.27-17.20.28:817][468]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2021.10.27-17.20.28:817][468]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2021.10.27-17.20.28:817][468]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2021.10.27-17.20.28:817][468]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.27-17.20.28:818][468]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2021.10.27-17.20.28:818][468]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2021.10.27-17.20.28:818][468]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.10.27-17.20.28:818][468]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.27-17.20.28:824][468]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.27-17.20.28:824][468]LogAudioMixer: Display: 1: FrontRight
+[2021.10.27-17.20.28:875][468]LogAudioMixer: Display: Using Audio Device Speaker/Headphone (Realtek High Definition Audio)
+[2021.10.27-17.20.28:875][468]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.27-17.20.28:875][468]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.27-17.20.28:876][468]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.27-17.20.28:876][468]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.27-17.20.28:876][468]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.27-17.20.28:876][468]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.27-17.20.28:878][468]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.27-17.20.28:878][468]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.27-17.20.28:878][468]LogInit: FAudioDevice initialized.
+[2021.10.27-17.20.28:878][468]LogAudio: Display: Audio Device (ID: 3) registered with world 'TheWeather'.
+[2021.10.27-17.20.28:888][468]LogLoad: Game class is 'VRGameMode_C'
+[2021.10.27-17.20.28:890][468]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TheWeather.TheWeather up for play (max tick rate 60) at 2021.10.27-12.20.28
+[2021.10.27-17.20.28:890][468]LogWorld: Bringing up level for play took: 0.001252
+[2021.10.27-17.20.28:891][468]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2021.10.27-17.20.28:893][468]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.10.27-17.20.28:912][468]PIE: Server logged in
+[2021.10.27-17.20.28:913][468]PIE: Play in editor total start time 0.135 seconds.
+[2021.10.27-17.20.28:971][468]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.28:981][468]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.28:981][468]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.28:994][468]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2021.10.27-17.20.29:059][469]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:059][469]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:059][469]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:070][470]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:070][470]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:070][470]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:087][471]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:087][471]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:087][471]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:105][472]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:106][472]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:106][472]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:139][473]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:139][473]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:139][473]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:182][474]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:182][474]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:182][474]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:215][475]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:216][475]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:216][475]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:240][476]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:240][476]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:241][476]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:257][477]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:257][477]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:257][477]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:273][478]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:274][478]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:274][478]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:290][479]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:290][479]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:290][479]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:307][480]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:307][480]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:307][480]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:323][481]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:323][481]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:323][481]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:340][482]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:340][482]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:340][482]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:356][483]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:357][483]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:357][483]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:373][484]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:373][484]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:373][484]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:390][485]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:390][485]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:390][485]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:406][486]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:407][486]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:407][486]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:423][487]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:423][487]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:423][487]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:440][488]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:440][488]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:440][488]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:457][489]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:457][489]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:457][489]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:473][490]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:473][490]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:474][490]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:490][491]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:490][491]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:490][491]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:506][492]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:506][492]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:506][492]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:523][493]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:523][493]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:523][493]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:540][494]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:540][494]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:540][494]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:556][495]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:557][495]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:557][495]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:573][496]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:573][496]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:573][496]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:590][497]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:590][497]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:590][497]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:606][498]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:607][498]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:607][498]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:623][499]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:623][499]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:624][499]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:640][500]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:640][500]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:640][500]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:657][501]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:657][501]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:657][501]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:673][502]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:673][502]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:674][502]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:690][503]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:690][503]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:690][503]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:707][504]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:707][504]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:707][504]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:723][505]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:724][505]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:724][505]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:740][506]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:740][506]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:740][506]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:757][507]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:757][507]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:757][507]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:773][508]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:774][508]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:774][508]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:790][509]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:790][509]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:790][509]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:806][510]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:806][510]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:806][510]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:823][511]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:824][511]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:824][511]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:840][512]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:840][512]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:840][512]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:856][513]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:856][513]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:856][513]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:873][514]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:874][514]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:874][514]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:890][515]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:890][515]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:890][515]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:907][516]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:907][516]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:907][516]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:923][517]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:924][517]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:924][517]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:940][518]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:940][518]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:940][518]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:957][519]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:957][519]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:957][519]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:973][520]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:973][520]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:973][520]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.29:989][521]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.29:989][521]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.29:989][521]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:006][522]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:006][522]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:006][522]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:023][523]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:023][523]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:023][523]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:039][524]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:040][524]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:040][524]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:056][525]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:056][525]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:056][525]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:073][526]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:073][526]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:073][526]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:090][527]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:090][527]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:090][527]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:106][528]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:106][528]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:106][528]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:123][529]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:123][529]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:123][529]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:140][530]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:140][530]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:140][530]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:156][531]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:156][531]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:156][531]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:173][532]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:173][532]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:173][532]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:189][533]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:190][533]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:190][533]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:206][534]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:206][534]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:206][534]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:223][535]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:223][535]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:223][535]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:239][536]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:239][536]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:239][536]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:256][537]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:256][537]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:256][537]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:273][538]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:273][538]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:273][538]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:290][539]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:290][539]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:290][539]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:307][540]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:307][540]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:307][540]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:324][541]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:324][541]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:324][541]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:340][542]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:340][542]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:340][542]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:356][543]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:357][543]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:357][543]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:373][544]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:373][544]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:373][544]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:390][545]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:390][545]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:390][545]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:407][546]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:407][546]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:407][546]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:423][547]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:423][547]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:424][547]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:441][548]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:441][548]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:441][548]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:457][549]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:457][549]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:457][549]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:474][550]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:474][550]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:474][550]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:490][551]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:490][551]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:490][551]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:506][552]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:506][552]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:506][552]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:523][553]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:523][553]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:523][553]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:540][554]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:540][554]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:540][554]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:556][555]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:556][555]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:556][555]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:573][556]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:573][556]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:573][556]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:591][557]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:591][557]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:591][557]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:607][558]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:607][558]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:607][558]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:624][559]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:624][559]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:624][559]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:641][560]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:641][560]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:641][560]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:661][561]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:661][561]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:661][561]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:682][562]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:682][562]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:682][562]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:697][563]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:697][563]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:698][563]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:715][564]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:716][564]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:716][564]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:732][565]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:732][565]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:733][565]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:748][566]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:748][566]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:748][566]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:765][567]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:765][567]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:765][567]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:781][568]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:782][568]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:782][568]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:797][569]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:797][569]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:797][569]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:814][570]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:814][570]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:814][570]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:830][571]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:830][571]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:830][571]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:848][572]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:848][572]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:848][572]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:864][573]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:865][573]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:865][573]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:882][574]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:882][574]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:882][574]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:897][575]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:897][575]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:899][575]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:914][576]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:914][576]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:914][576]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:930][577]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:930][577]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:931][577]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:947][578]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:947][578]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:947][578]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:964][579]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:964][579]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:964][579]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:981][580]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:981][580]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:981][580]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.30:998][581]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.30:998][581]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.30:998][581]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.31:017][582]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.31:017][582]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.31:017][582]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.31:032][583]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.31:032][583]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.31:032][583]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.31:049][584]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.31:049][584]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.31:049][584]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.31:065][585]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.31:065][585]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.31:065][585]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.31:081][586]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.31:081][586]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.31:081][586]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.31:099][587]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.31:099][587]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.31:099][587]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.31:115][588]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.31:115][588]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.31:115][588]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.31:131][589]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.31:131][589]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.31:131][589]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.31:147][590]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.31:147][590]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.31:147][590]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.31:164][591]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.31:164][591]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.31:164][591]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.31:181][592]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.31:181][592]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.31:181][592]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.31:198][593]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.31:198][593]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.31:198][593]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.31:214][594]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.31:214][594]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.31:214][594]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.31:231][595]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.31:231][595]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.31:231][595]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.31:247][596]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.31:247][596]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.31:248][596]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.31:264][597]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.31:265][597]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.31:265][597]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.31:281][598]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.31:281][598]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.31:281][598]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.31:297][599]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.31:298][599]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.31:298][599]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.31:314][600]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.31:314][600]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.31:314][600]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.31:331][601]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.31:331][601]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.31:331][601]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.31:347][602]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.31:348][602]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.31:348][602]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.31:364][603]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.31:364][603]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.31:364][603]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.31:381][604]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.31:381][604]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.31:381][604]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.31:398][605]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.31:398][605]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.31:398][605]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.31:414][606]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.31:414][606]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.31:414][606]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.31:431][607]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.31:431][607]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.31:431][607]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.31:447][608]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.31:448][608]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.31:448][608]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.31:467][609]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.31:467][609]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.31:467][609]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.31:481][610]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.31:482][610]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.31:482][610]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.31:498][611]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.31:498][611]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.31:499][611]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.31:515][612]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.31:515][612]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.31:515][612]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.31:532][613]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.31:532][613]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.31:532][613]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.31:548][614]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.31:548][614]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.31:548][614]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.31:564][615]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.31:565][615]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.31:565][615]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.31:581][616]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.31:581][616]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.31:581][616]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.31:598][617]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.31:598][617]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.31:598][617]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.31:614][618]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.31:615][618]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.31:615][618]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.31:632][619]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.31:632][619]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.31:632][619]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.31:647][620]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.31:647][620]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.31:647][620]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.31:664][621]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.31:664][621]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.31:664][621]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.31:680][622]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.31:681][622]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.31:681][622]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.31:698][623]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.31:698][623]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.31:698][623]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.33:172][710]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.33:172][710]LogBlueprintUserMessages: [TextWeather_2] Clear
+[2021.10.27-17.20.33:172][710]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.33:221][710]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-17.20.33:221][710]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TheWeather
+[2021.10.27-17.20.33:221][710]LogWorld: UWorld::CleanupWorld for TheWeather, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-17.20.33:221][710]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-17.20.33:229][710]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.27-17.20.33:243][710]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-17.20.33:263][710]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.27-17.20.33:263][710]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2021.10.27-17.20.33:263][710]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-17.20.33:265][710]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-17.20.33:272][710]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-17.20.33:278][710]LogUObjectHash: Compacting FUObjectHashTables data took   4.32ms
+[2021.10.27-17.20.33:328][711]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2021.10.27-17.20.34:485][778]LogEditorViewport: Clicking on Actor (LMB): TheWeather_Sky_Sphere_C (TheWeather_Sky_Sphere)
+[2021.10.27-17.20.35:151][817]LogEditorViewport: Clicking on Actor (LMB): TextWeather_C (TextWeather)
+[2021.10.27-17.20.36:598][900]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TextWeather.TextWeather
+[2021.10.27-17.20.50:128][651]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TextWeather" FILE="../../../../../GitHub/ProjLab3/TESTProject/Content/TextWeather.uasset" SILENT=true
+[2021.10.27-17.20.50:141][651]LogSavePackage: Moving '../../../../../GitHub/ProjLab3/TESTProject/Saved/TextWeatherD6349ED745B78D3E51CE99B434DAB6A3.tmp' to '../../../../../GitHub/ProjLab3/TESTProject/Content/TextWeather.uasset'
+[2021.10.27-17.20.50:160][651]AssetCheck: New page: Asset Save: TextWeather
+[2021.10.27-17.20.50:160][651]LogContentValidation: Display: Validating Blueprint /Game/TextWeather.TextWeather
+[2021.10.27-17.20.50:537][672]BlueprintLog: New page: Compile TextWeather
+[2021.10.27-17.20.50:605][672]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2021.10.27-17.20.51:779][735]LogSlate: Window 'TextWeather' being destroyed
+[2021.10.27-17.20.51:785][735]LogSlate: Window 'TextWeather' being destroyed
+[2021.10.27-17.20.51:792][735]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-17.20.51:793][735]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-17.20.54:920][903]LogTemp: Repeating last play command: Simulate
+[2021.10.27-17.20.54:935][903]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.27-17.20.54:935][903]PIE: New page: SIE session: TheWeather (Oct 27, 2021, 7:20:54 AM)
+[2021.10.27-17.20.54:935][903]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TheWeather
+[2021.10.27-17.20.54:940][903]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004101s)
+[2021.10.27-17.20.54:941][903]LogAIModule: Creating AISystem for world TheWeather
+[2021.10.27-17.20.54:941][903]LogPlayLevel: PIE: World Init took: (0.001433s)
+[2021.10.27-17.20.54:941][903]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TheWeather.TheWeather to /Game/Levels/UEDPIE_0_TheWeather.TheWeather (0.005728s)
+[2021.10.27-17.20.54:966][903]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2021.10.27-17.20.54:967][903]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2021.10.27-17.20.54:967][903]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.27-17.20.54:967][903]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.27-17.20.54:967][903]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.27-17.20.54:967][903]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.27-17.20.54:967][903]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2021.10.27-17.20.54:967][903]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2021.10.27-17.20.54:968][903]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2021.10.27-17.20.54:968][903]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.27-17.20.54:968][903]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2021.10.27-17.20.54:968][903]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2021.10.27-17.20.54:968][903]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.10.27-17.20.54:968][903]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.27-17.20.54:973][903]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.27-17.20.54:973][903]LogAudioMixer: Display: 1: FrontRight
+[2021.10.27-17.20.55:021][903]LogAudioMixer: Display: Using Audio Device Speaker/Headphone (Realtek High Definition Audio)
+[2021.10.27-17.20.55:022][903]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.27-17.20.55:022][903]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.27-17.20.55:022][903]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.27-17.20.55:022][903]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.27-17.20.55:022][903]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.27-17.20.55:022][903]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.27-17.20.55:024][903]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.27-17.20.55:024][903]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.27-17.20.55:024][903]LogInit: FAudioDevice initialized.
+[2021.10.27-17.20.55:024][903]LogAudio: Display: Audio Device (ID: 4) registered with world 'TheWeather'.
+[2021.10.27-17.20.55:031][903]LogLoad: Game class is 'VRGameMode_C'
+[2021.10.27-17.20.55:033][903]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TheWeather.TheWeather up for play (max tick rate 60) at 2021.10.27-12.20.55
+[2021.10.27-17.20.55:033][903]LogWorld: Bringing up level for play took: 0.001271
+[2021.10.27-17.20.55:034][903]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2021.10.27-17.20.55:036][903]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.10.27-17.20.55:036][903]PIE: Server logged in
+[2021.10.27-17.20.55:037][903]PIE: Play in editor total start time 0.11 seconds.
+[2021.10.27-17.20.55:049][903]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:049][903]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:065][903]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2021.10.27-17.20.55:126][904]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:126][904]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:153][905]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:153][905]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:187][906]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:187][906]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:221][907]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:222][907]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:255][908]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:255][908]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:272][909]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:272][909]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:289][910]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:289][910]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:305][911]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:305][911]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:322][912]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:322][912]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:339][913]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:339][913]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:356][914]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:356][914]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:372][915]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:373][915]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:389][916]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:389][916]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:406][917]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:406][917]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:422][918]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:422][918]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:438][919]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:438][919]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:455][920]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:455][920]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:472][921]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:472][921]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:489][922]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:489][922]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:505][923]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:505][923]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:522][924]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:522][924]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:539][925]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:539][925]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:555][926]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:555][926]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:572][927]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:572][927]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:589][928]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:589][928]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:605][929]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:606][929]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:622][930]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:622][930]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:638][931]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:638][931]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:655][932]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:655][932]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:672][933]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:672][933]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:688][934]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:689][934]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:705][935]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:705][935]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:722][936]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:722][936]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:739][937]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:739][937]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:755][938]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:755][938]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:773][939]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:773][939]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:789][940]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:790][940]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:806][941]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:806][941]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:823][942]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:823][942]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:840][943]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:840][943]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:856][944]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:856][944]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:873][945]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:873][945]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:890][946]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:890][946]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:906][947]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:907][947]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:923][948]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:923][948]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:940][949]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:940][949]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:956][950]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:957][950]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:973][951]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:973][951]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.55:989][952]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.55:989][952]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:005][953]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:005][953]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:022][954]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:022][954]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:039][955]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:039][955]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:055][956]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:055][956]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:072][957]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:072][957]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:089][958]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:089][958]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:105][959]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:105][959]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:122][960]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:122][960]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:139][961]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:139][961]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:155][962]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:155][962]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:172][963]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:172][963]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:189][964]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:189][964]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:206][965]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:206][965]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:223][966]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:223][966]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:239][967]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:239][967]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:256][968]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:256][968]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:272][969]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:272][969]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:289][970]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:289][970]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:306][971]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:306][971]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:322][972]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:323][972]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:339][973]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:339][973]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:356][974]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:356][974]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:372][975]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:372][975]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:389][976]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:389][976]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:406][977]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:406][977]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:422][978]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:423][978]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:439][979]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:439][979]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:456][980]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:456][980]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:472][981]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:472][981]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:488][982]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:489][982]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:505][983]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:505][983]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:522][984]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:522][984]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:538][985]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:539][985]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:555][986]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:555][986]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:572][987]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:572][987]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:589][988]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:589][988]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:605][989]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:605][989]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:622][990]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:622][990]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:639][991]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:639][991]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:655][992]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:655][992]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:672][993]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:672][993]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:688][994]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:689][994]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:705][995]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:705][995]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:722][996]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:722][996]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:739][997]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:739][997]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:755][998]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:755][998]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:772][999]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:772][999]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:788][  0]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:789][  0]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:805][  1]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:805][  1]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:822][  2]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:822][  2]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:838][  3]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:839][  3]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:856][  4]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:856][  4]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:873][  5]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:873][  5]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:889][  6]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:889][  6]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:905][  7]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:905][  7]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:922][  8]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:922][  8]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:939][  9]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:939][  9]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:956][ 10]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:956][ 10]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:972][ 11]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:973][ 11]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.56:989][ 12]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.56:989][ 12]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:005][ 13]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:005][ 13]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:022][ 14]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:022][ 14]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:039][ 15]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:039][ 15]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:055][ 16]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:055][ 16]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:072][ 17]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:072][ 17]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:089][ 18]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:089][ 18]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:106][ 19]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:106][ 19]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:123][ 20]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:123][ 20]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:140][ 21]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:140][ 21]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:156][ 22]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:156][ 22]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:173][ 23]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:173][ 23]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:190][ 24]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:190][ 24]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:207][ 25]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:207][ 25]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:223][ 26]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:224][ 26]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:240][ 27]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:240][ 27]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:257][ 28]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:257][ 28]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:273][ 29]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:273][ 29]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:290][ 30]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:290][ 30]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:306][ 31]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:307][ 31]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:323][ 32]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:323][ 32]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:338][ 33]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:339][ 33]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:356][ 34]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:356][ 34]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:373][ 35]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:373][ 35]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:389][ 36]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:389][ 36]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:406][ 37]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:406][ 37]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:422][ 38]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:422][ 38]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:438][ 39]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:438][ 39]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:455][ 40]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:455][ 40]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:472][ 41]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:472][ 41]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:489][ 42]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:489][ 42]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:506][ 43]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:506][ 43]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:523][ 44]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:523][ 44]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:542][ 45]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:542][ 45]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:575][ 46]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:575][ 46]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:589][ 47]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:589][ 47]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:608][ 48]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:608][ 48]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:624][ 49]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:624][ 49]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:639][ 50]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:639][ 50]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:656][ 51]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:656][ 51]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:672][ 52]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:673][ 52]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:690][ 53]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:690][ 53]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:707][ 54]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:707][ 54]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:723][ 55]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:723][ 55]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:742][ 56]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:742][ 56]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:758][ 57]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:758][ 57]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:773][ 58]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:773][ 58]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:790][ 59]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:790][ 59]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:807][ 60]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:807][ 60]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:823][ 61]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:823][ 61]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:839][ 62]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:839][ 62]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:856][ 63]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:856][ 63]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:873][ 64]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:873][ 64]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:890][ 65]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:890][ 65]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:907][ 66]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:907][ 66]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:923][ 67]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:923][ 67]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:940][ 68]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:940][ 68]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:957][ 69]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:957][ 69]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:973][ 70]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:974][ 70]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.57:989][ 71]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.57:989][ 71]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:005][ 72]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:006][ 72]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:022][ 73]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:022][ 73]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:039][ 74]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:039][ 74]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:056][ 75]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:056][ 75]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:072][ 76]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:072][ 76]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:089][ 77]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:089][ 77]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:106][ 78]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:106][ 78]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:123][ 79]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:123][ 79]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:140][ 80]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:140][ 80]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:157][ 81]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:157][ 81]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:173][ 82]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:174][ 82]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:190][ 83]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:191][ 83]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:209][ 84]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:210][ 84]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:224][ 85]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:224][ 85]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:241][ 86]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:241][ 86]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:257][ 87]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:257][ 87]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:273][ 88]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:273][ 88]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:290][ 89]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:290][ 89]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:305][ 90]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:305][ 90]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:322][ 91]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:322][ 91]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:339][ 92]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:339][ 92]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:355][ 93]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:355][ 93]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:372][ 94]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:373][ 94]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:389][ 95]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:389][ 95]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:405][ 96]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:405][ 96]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:422][ 97]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:422][ 97]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:439][ 98]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:439][ 98]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:456][ 99]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:456][ 99]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:473][100]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:473][100]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:490][101]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:490][101]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:505][102]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:506][102]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:523][103]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:523][103]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:540][104]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:540][104]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:558][105]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:558][105]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:577][106]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:577][106]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:589][107]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:590][107]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:607][108]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:607][108]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:623][109]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:623][109]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:642][110]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:642][110]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:657][111]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:658][111]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:673][112]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:673][112]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:690][113]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:690][113]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:706][114]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:706][114]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:723][115]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:723][115]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:739][116]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:739][116]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:755][117]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:755][117]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:772][118]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:772][118]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:789][119]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:789][119]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:806][120]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:806][120]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:823][121]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:823][121]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:839][122]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:839][122]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:856][123]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:856][123]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:872][124]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:872][124]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:889][125]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:889][125]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:906][126]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:906][126]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:923][127]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:923][127]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:939][128]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:940][128]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:956][129]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:956][129]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:973][130]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:973][130]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.58:989][131]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.58:989][131]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.59:006][132]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.59:006][132]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.59:023][133]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.59:023][133]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.59:039][134]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.59:039][134]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.59:056][135]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.59:056][135]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.59:073][136]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.59:073][136]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.59:089][137]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.59:089][137]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.59:106][138]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.59:106][138]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.20.59:122][139]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.20.59:122][139]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.00:337][206]LogBlueprintUserMessages: [TodayDate_3] Hello
+[2021.10.27-17.21.00:337][206]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.00:372][206]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-17.21.00:372][206]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TheWeather
+[2021.10.27-17.21.00:372][206]LogWorld: UWorld::CleanupWorld for TheWeather, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-17.21.00:373][206]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-17.21.00:383][206]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.27-17.21.00:404][206]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-17.21.00:426][206]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.27-17.21.00:426][206]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2021.10.27-17.21.00:426][206]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-17.21.00:428][206]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-17.21.00:435][206]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-17.21.00:439][206]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2021.10.27-17.21.00:486][207]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2021.10.27-17.21.01:942][293]LogEditorViewport: Clicking on Actor (LMB): TodayDate_C (TodayDate)
+[2021.10.27-17.21.04:104][419]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TodayDate.TodayDate
+[2021.10.27-17.21.21:546][351]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TodayDate" FILE="../../../../../GitHub/ProjLab3/TESTProject/Content/TodayDate.uasset" SILENT=true
+[2021.10.27-17.21.21:556][351]LogSavePackage: Moving '../../../../../GitHub/ProjLab3/TESTProject/Saved/TodayDate1D894D4D4E8BA9616567BAA642D54EDD.tmp' to '../../../../../GitHub/ProjLab3/TESTProject/Content/TodayDate.uasset'
+[2021.10.27-17.21.21:575][351]AssetCheck: New page: Asset Save: TodayDate
+[2021.10.27-17.21.21:575][351]LogContentValidation: Display: Validating Blueprint /Game/TodayDate.TodayDate
+[2021.10.27-17.21.22:377][396]BlueprintLog: New page: Compile TodayDate
+[2021.10.27-17.21.22:440][396]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2021.10.27-17.21.24:027][480]LogSlate: Window 'TodayDate' being destroyed
+[2021.10.27-17.21.24:032][480]LogSlate: Window 'TodayDate' being destroyed
+[2021.10.27-17.21.24:036][480]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-17.21.24:037][480]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-17.21.26:108][591]LogTemp: Repeating last play command: Simulate
+[2021.10.27-17.21.26:123][591]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.27-17.21.26:123][591]PIE: New page: SIE session: TheWeather (Oct 27, 2021, 7:21:26 AM)
+[2021.10.27-17.21.26:123][591]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TheWeather
+[2021.10.27-17.21.26:127][591]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003952s)
+[2021.10.27-17.21.26:128][591]LogAIModule: Creating AISystem for world TheWeather
+[2021.10.27-17.21.26:128][591]LogPlayLevel: PIE: World Init took: (0.001222s)
+[2021.10.27-17.21.26:128][591]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TheWeather.TheWeather to /Game/Levels/UEDPIE_0_TheWeather.TheWeather (0.005364s)
+[2021.10.27-17.21.26:154][591]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2021.10.27-17.21.26:156][591]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2021.10.27-17.21.26:156][591]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.27-17.21.26:156][591]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.27-17.21.26:156][591]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.27-17.21.26:156][591]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.27-17.21.26:156][591]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2021.10.27-17.21.26:156][591]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2021.10.27-17.21.26:156][591]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2021.10.27-17.21.26:156][591]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.27-17.21.26:156][591]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2021.10.27-17.21.26:156][591]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2021.10.27-17.21.26:156][591]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.10.27-17.21.26:156][591]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.27-17.21.26:161][591]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.27-17.21.26:161][591]LogAudioMixer: Display: 1: FrontRight
+[2021.10.27-17.21.26:230][591]LogAudioMixer: Display: Using Audio Device Speaker/Headphone (Realtek High Definition Audio)
+[2021.10.27-17.21.26:230][591]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.27-17.21.26:230][591]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.27-17.21.26:230][591]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.27-17.21.26:231][591]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.27-17.21.26:231][591]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.27-17.21.26:231][591]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.27-17.21.26:232][591]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.27-17.21.26:232][591]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.27-17.21.26:232][591]LogInit: FAudioDevice initialized.
+[2021.10.27-17.21.26:232][591]LogAudio: Display: Audio Device (ID: 5) registered with world 'TheWeather'.
+[2021.10.27-17.21.26:242][591]LogLoad: Game class is 'VRGameMode_C'
+[2021.10.27-17.21.26:244][591]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TheWeather.TheWeather up for play (max tick rate 60) at 2021.10.27-12.21.26
+[2021.10.27-17.21.26:245][591]LogWorld: Bringing up level for play took: 0.001269
+[2021.10.27-17.21.26:245][591]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2021.10.27-17.21.26:247][591]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.10.27-17.21.26:247][591]PIE: Server logged in
+[2021.10.27-17.21.26:248][591]PIE: Play in editor total start time 0.134 seconds.
+[2021.10.27-17.21.26:260][591]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.26:274][591]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2021.10.27-17.21.26:363][592]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.26:389][593]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.26:423][594]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.26:440][595]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.26:457][596]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.26:473][597]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.26:490][598]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.26:507][599]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.26:524][600]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.26:540][601]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.26:557][602]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.26:574][603]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.26:590][604]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.26:607][605]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.26:624][606]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.26:640][607]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.26:657][608]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.26:674][609]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.26:690][610]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.26:707][611]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.26:724][612]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.26:740][613]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.26:757][614]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.26:773][615]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.26:789][616]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.26:806][617]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.26:823][618]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.26:840][619]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.26:857][620]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.26:873][621]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.26:890][622]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.26:906][623]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.26:923][624]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.26:940][625]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.26:957][626]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.26:973][627]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.26:990][628]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:007][629]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:023][630]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:040][631]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:057][632]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:073][633]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:090][634]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:107][635]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:124][636]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:140][637]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:157][638]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:174][639]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:190][640]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:207][641]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:223][642]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:240][643]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:256][644]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:273][645]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:290][646]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:307][647]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:323][648]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:340][649]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:356][650]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:373][651]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:390][652]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:406][653]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:423][654]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:440][655]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:456][656]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:473][657]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:490][658]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:507][659]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:523][660]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:540][661]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:557][662]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:574][663]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:590][664]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:607][665]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:623][666]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:640][667]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:657][668]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:674][669]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:690][670]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:707][671]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:724][672]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:741][673]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:757][674]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:773][675]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:790][676]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:807][677]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:824][678]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:841][679]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:858][680]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:874][681]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:891][682]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:907][683]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:924][684]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:941][685]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:958][686]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:974][687]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.27:990][688]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:007][689]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:023][690]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:040][691]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:056][692]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:073][693]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:090][694]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:106][695]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:123][696]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:140][697]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:156][698]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:173][699]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:190][700]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:206][701]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:223][702]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:240][703]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:256][704]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:273][705]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:290][706]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:307][707]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:324][708]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:342][709]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:358][710]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:374][711]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:392][712]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:408][713]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:424][714]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:443][715]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:461][716]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:478][717]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:492][718]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:509][719]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:525][720]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:543][721]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:560][722]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:576][723]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:593][724]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:609][725]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:626][726]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:643][727]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:659][728]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:676][729]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:693][730]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:709][731]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:725][732]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:742][733]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:759][734]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:776][735]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:793][736]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:810][737]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:828][738]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:845][739]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:872][740]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:889][741]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:905][742]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:922][743]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:939][744]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:955][745]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:972][746]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.28:988][747]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.29:004][748]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.29:022][749]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.29:038][750]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.29:055][751]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.29:071][752]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.29:088][753]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.29:105][754]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.29:122][755]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.29:138][756]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.29:155][757]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.29:171][758]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.29:188][759]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.29:205][760]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.29:222][761]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.29:239][762]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.29:256][763]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.29:272][764]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.29:288][765]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.29:305][766]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.29:323][767]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.29:339][768]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.29:355][769]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.29:374][770]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.29:390][771]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.29:405][772]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.29:422][773]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.29:439][774]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.29:456][775]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.29:472][776]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.30:878][856]LogBlueprintUserMessages: [TheWeather_Sky_Sphere_4] Clear
+[2021.10.27-17.21.30:911][856]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-17.21.30:911][856]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TheWeather
+[2021.10.27-17.21.30:911][856]LogWorld: UWorld::CleanupWorld for TheWeather, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-17.21.30:911][856]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-17.21.30:921][856]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.27-17.21.30:935][856]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-17.21.30:954][856]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.27-17.21.30:955][856]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2021.10.27-17.21.30:955][856]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-17.21.30:956][856]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-17.21.30:962][856]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-17.21.30:966][856]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2021.10.27-17.21.31:000][857]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2021.10.27-17.22.55:924][950]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor4)
+[2021.10.27-17.23.03:065][371]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Levels/LevelWarp_TriggerBox_Blueprint.LevelWarp_TriggerBox_Blueprint
+[2021.10.27-17.23.06:363][528]LogSlate: Window 'LevelWarp_TriggerBox_Blueprint' being destroyed
+[2021.10.27-17.23.06:380][528]LogSlate: Window 'LevelWarp_TriggerBox_Blueprint' being destroyed
+[2021.10.27-17.23.06:385][528]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-17.23.06:385][528]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-17.23.09:378][702]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Levels/NextDayTriggerBox2_Blueprint.NextDayTriggerBox2_Blueprint
+[2021.10.27-17.23.17:756][128]LogSlate: Window 'NextDayTriggerBox2_Blueprint' being destroyed
+[2021.10.27-17.23.17:772][128]LogSlate: Window 'NextDayTriggerBox2_Blueprint' being destroyed
+[2021.10.27-17.23.17:778][128]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-17.23.17:778][128]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-17.23.23:721][472]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TriggerBox_Blueprint.TriggerBox_Blueprint
+[2021.10.27-17.23.31:872][920]LogSlate: Window 'TriggerBox_Blueprint' being destroyed
+[2021.10.27-17.23.31:888][920]LogSlate: Window 'TriggerBox_Blueprint' being destroyed
+[2021.10.27-17.23.31:891][920]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-17.23.31:891][920]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-17.23.34:835][ 91]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Levels/Sphere_Blueprint.Sphere_Blueprint
+[2021.10.27-17.23.40:584][379]LogSlate: Window 'Sphere_Blueprint' being destroyed
+[2021.10.27-17.23.40:601][379]LogSlate: Window 'Sphere_Blueprint' being destroyed
+[2021.10.27-17.23.40:607][379]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-17.23.40:607][379]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-17.23.56:658][333]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Levels/Sphere_Blueprint.Sphere_Blueprint
+[2021.10.27-17.24.01:359][572]LogSlate: Window 'Sphere_Blueprint' being destroyed
+[2021.10.27-17.24.01:376][572]LogSlate: Window 'Sphere_Blueprint' being destroyed
+[2021.10.27-17.24.01:381][572]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-17.24.01:381][572]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-17.24.05:121][790]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TextWeather.TextWeather
+[2021.10.27-17.24.14:285][301]LogSlate: Window 'TextWeather' being destroyed
+[2021.10.27-17.24.14:301][301]LogSlate: Window 'TextWeather' being destroyed
+[2021.10.27-17.24.14:305][301]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-17.24.14:305][301]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-17.24.17:481][486]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CustomAssets/TheWeather_Sky_Sphere.TheWeather_Sky_Sphere
+[2021.10.27-17.24.29:648][126]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CustomAssets/TheWeather_Sky_Sphere" FILE="../../../../../GitHub/ProjLab3/TESTProject/Content/CustomAssets/TheWeather_Sky_Sphere.uasset" SILENT=true
+[2021.10.27-17.24.29:793][126]LogSavePackage: Moving '../../../../../GitHub/ProjLab3/TESTProject/Saved/TheWeather_Sky_Sphere840C44DF4EBBEF9062E2F98F05AFF579.tmp' to '../../../../../GitHub/ProjLab3/TESTProject/Content/CustomAssets/TheWeather_Sky_Sphere.uasset'
+[2021.10.27-17.24.29:814][126]AssetCheck: New page: Asset Save: TheWeather_Sky_Sphere
+[2021.10.27-17.24.29:815][126]LogContentValidation: Display: Validating Blueprint /Game/CustomAssets/TheWeather_Sky_Sphere.TheWeather_Sky_Sphere
+[2021.10.27-17.24.31:722][235]BlueprintLog: New page: Compile TheWeather_Sky_Sphere
+[2021.10.27-17.24.31:801][235]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2021.10.27-17.24.32:756][284]BlueprintLog: New page: Compile TheWeather_Sky_Sphere
+[2021.10.27-17.24.32:822][284]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2021.10.27-17.24.34:441][369]LogSlate: Window 'TheWeather_Sky_Sphere' being destroyed
+[2021.10.27-17.24.34:446][369]LogSlate: Window 'TheWeather_Sky_Sphere' being destroyed
+[2021.10.27-17.24.34:451][369]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-17.24.34:451][369]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-17.24.37:685][545]LogTemp: Repeating last play command: Simulate
+[2021.10.27-17.24.37:704][545]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.27-17.24.37:705][545]PIE: New page: SIE session: TheWeather (Oct 27, 2021, 7:24:37 AM)
+[2021.10.27-17.24.37:705][545]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TheWeather
+[2021.10.27-17.24.37:709][545]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004386s)
+[2021.10.27-17.24.37:710][545]LogAIModule: Creating AISystem for world TheWeather
+[2021.10.27-17.24.37:710][545]LogPlayLevel: PIE: World Init took: (0.001254s)
+[2021.10.27-17.24.37:711][545]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TheWeather.TheWeather to /Game/Levels/UEDPIE_0_TheWeather.TheWeather (0.005823s)
+[2021.10.27-17.24.37:739][545]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2021.10.27-17.24.37:740][545]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2021.10.27-17.24.37:740][545]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.27-17.24.37:740][545]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.27-17.24.37:740][545]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.27-17.24.37:740][545]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.27-17.24.37:740][545]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2021.10.27-17.24.37:740][545]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2021.10.27-17.24.37:740][545]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2021.10.27-17.24.37:740][545]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.27-17.24.37:741][545]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2021.10.27-17.24.37:741][545]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2021.10.27-17.24.37:741][545]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.10.27-17.24.37:741][545]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.27-17.24.37:747][545]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.27-17.24.37:747][545]LogAudioMixer: Display: 1: FrontRight
+[2021.10.27-17.24.37:795][545]LogAudioMixer: Display: Using Audio Device Speaker/Headphone (Realtek High Definition Audio)
+[2021.10.27-17.24.37:795][545]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.27-17.24.37:795][545]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.27-17.24.37:795][545]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.27-17.24.37:796][545]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.27-17.24.37:796][545]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.27-17.24.37:796][545]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.27-17.24.37:797][545]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.27-17.24.37:798][545]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.27-17.24.37:798][545]LogInit: FAudioDevice initialized.
+[2021.10.27-17.24.37:798][545]LogAudio: Display: Audio Device (ID: 6) registered with world 'TheWeather'.
+[2021.10.27-17.24.37:809][545]LogLoad: Game class is 'VRGameMode_C'
+[2021.10.27-17.24.37:811][545]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TheWeather.TheWeather up for play (max tick rate 60) at 2021.10.27-12.24.37
+[2021.10.27-17.24.37:812][545]LogWorld: Bringing up level for play took: 0.001294
+[2021.10.27-17.24.37:812][545]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2021.10.27-17.24.37:815][545]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.10.27-17.24.37:815][545]PIE: Server logged in
+[2021.10.27-17.24.37:816][545]PIE: Play in editor total start time 0.119 seconds.
+[2021.10.27-17.24.37:831][545]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2021.10.27-17.24.40:491][698]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-17.24.40:491][698]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TheWeather
+[2021.10.27-17.24.40:491][698]LogWorld: UWorld::CleanupWorld for TheWeather, bSessionEnded=true, bCleanupResources=true
+[2021.10.27-17.24.40:492][698]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-17.24.40:501][698]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.27-17.24.40:519][698]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.27-17.24.40:539][698]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.27-17.24.40:539][698]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2021.10.27-17.24.40:539][698]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-17.24.40:540][698]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.27-17.24.40:548][698]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.27-17.24.40:552][698]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2021.10.27-17.24.40:602][699]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2021.10.27-17.24.42:087][776]Candidate modules for hot reload:
+[2021.10.27-17.24.42:087][776]  TESTProject
+[2021.10.27-17.24.42:087][776]Launching UnrealBuildTool... [D:/Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TESTProject,3281 TESTProjectEditor Win64 Development -Project="D:/GitHub/ProjLab3/TESTProject/TESTProject.uproject" "D:/GitHub/ProjLab3/TESTProject/TESTProject.uproject"  -IgnoreJunk]
+[2021.10.27-17.24.42:115][776]Warning: Starting HotReload took  0.2s.
+[2021.10.27-17.26.17:914][504]CompilerResultsLog: New page: Compilation - Oct 27, 2021, 7:26:17 AM
+[2021.10.27-17.26.17:914][504]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\GitHub\ProjLab3).
+[2021.10.27-17.26.17:914][504]CompilerResultsLog: Creating makefile for TESTProjectEditor (game project files are newer)
+[2021.10.27-17.26.17:914][504]CompilerResultsLog: Parsing headers for TESTProjectEditor
+[2021.10.27-17.26.17:914][504]CompilerResultsLog:   Running UnrealHeaderTool "D:\GitHub\ProjLab3\TESTProject\TESTProject.uproject" "D:\GitHub\ProjLab3\TESTProject\Intermediate\Build\Win64\TESTProjectEditor\Development\TESTProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Paul\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.10.27-17.26.17:914][504]CompilerResultsLog: LogInit: Display: Loading text-based GConfig....
+[2021.10.27-17.26.17:914][504]CompilerResultsLog: Reflection code generated for TESTProjectEditor in 26.0588555 seconds
+[2021.10.27-17.26.17:914][504]CompilerResultsLog: Building TESTProjectEditor...
+[2021.10.27-17.26.17:914][504]CompilerResultsLog: Using Visual Studio 2019 14.29.30133 toolchain (D:\Program Files\VS\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.10.27-17.26.17:914][504]CompilerResultsLog: Building 9 actions with 8 processes...
+[2021.10.27-17.26.17:914][504]CompilerResultsLog:   [1/9] SharedPCH.Engine.ShadowErrors.cpp
+[2021.10.27-17.26.17:914][504]CompilerResultsLog:   [2/9] MyClass.cpp
+[2021.10.27-17.26.17:914][504]CompilerResultsLog:   [3/9] yourBlueprintFunctionLibrary.cpp
+[2021.10.27-17.26.17:914][504]CompilerResultsLog:   [4/9] TESTProject.init.gen.cpp
+[2021.10.27-17.26.17:914][504]CompilerResultsLog:   [5/9] TESTProject.cpp
+[2021.10.27-17.26.17:914][504]CompilerResultsLog:   [6/9] yourBlueprintFunctionLibrary.gen.cpp
+[2021.10.27-17.26.17:914][504]CompilerResultsLog:   [7/9] UE4Editor-TESTProject-3281.lib
+[2021.10.27-17.26.17:914][504]CompilerResultsLog:      Creating library D:\GitHub\ProjLab3\TESTProject\Intermediate\Build\Win64\UE4Editor\Development\TESTProject\UE4Editor-TESTProject-3281.lib and object D:\GitHub\ProjLab3\TESTProject\Intermediate\Build\Win64\UE4Editor\Development\TESTProject\UE4Editor-TESTProject-3281.exp
+[2021.10.27-17.26.17:914][504]CompilerResultsLog:   [8/9] UE4Editor-TESTProject-3281.dll
+[2021.10.27-17.26.17:914][504]CompilerResultsLog:      Creating library D:\GitHub\ProjLab3\TESTProject\Intermediate\Build\Win64\UE4Editor\Development\TESTProject\UE4Editor-TESTProject-3281.suppressed.lib and object D:\GitHub\ProjLab3\TESTProject\Intermediate\Build\Win64\UE4Editor\Development\TESTProject\UE4Editor-TESTProject-3281.suppressed.exp
+[2021.10.27-17.26.17:914][504]CompilerResultsLog:   [9/9] TESTProjectEditor.target
+[2021.10.27-17.26.17:914][504]CompilerResultsLog: Total time in Parallel executor: 60.28 seconds
+[2021.10.27-17.26.17:914][504]CompilerResultsLog: Total execution time: 95.63 seconds
+[2021.10.27-17.26.17:993][504]LogMainFrame: MainFrame: Module compiling took 96.027 seconds
+[2021.10.27-17.26.18:048][504]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'TESTProject' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2021.10.27-17.26.18:053][504]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2021.10.27-17.26.18:779][504]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0120 seconds. Added 3792 classes and 946 folders.
+[2021.10.27-17.26.18:824][504]Display: HotReload took 96.9s.
+[2021.10.27-17.26.25:360][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TheWeather" FILE="../../../../../GitHub/ProjLab3/TESTProject/Content/Levels/TheWeather.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.10.27-17.26.25:439][856]LogUObjectHash: Compacting FUObjectHashTables data took   4.09ms
+[2021.10.27-17.26.25:462][856]LogSavePackage: Moving '../../../../../GitHub/ProjLab3/TESTProject/Saved/TheWeatherE25A896A464C27A07402A5B971F827C7.tmp' to '../../../../../GitHub/ProjLab3/TESTProject/Content/Levels/TheWeather.umap'
+[2021.10.27-17.26.25:481][856]AssetCheck: New page: Asset Save: TheWeather
+[2021.10.27-17.26.25:481][856]LogContentValidation: Display: Validating World /Game/Levels/TheWeather.TheWeather

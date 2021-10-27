@@ -393,6 +393,7 @@
     <None Include="..\..\Source\TESTProject.Target.cs"/>
     <None Include="..\..\Source\TESTProjectEditor.Target.cs"/>
     <None Include="..\..\.ignore"/>
+    <None Include="..\..\main1.py"/>
     <None Include="..\..\PN_OpenWorldFoliage.png"/>
     <None Include="..\..\TESTProject.code-workspace"/>
     <None Include="..\..\Config\DefaultEditor.ini"/>

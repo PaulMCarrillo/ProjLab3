@@ -1,3 +1,3 @@
-D:\GitHub\ProjLab3\TESTProject\Intermediate\Build\Win64\UE4Editor\Development\TESTProject\Definitions.TESTProject.h
-D:\Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-D:\Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+E:\ProjLab3\TESTProject\Intermediate\Build\Win64\UE4Editor\Development\TESTProject\Definitions.TESTProject.h
+F:\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+F:\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h

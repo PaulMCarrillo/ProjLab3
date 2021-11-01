@@ -7714,3 +7714,528 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.11.01-20.18.04:284][931]LogSavePackage: Moving '../../../../../GitHub/ProjLab3/TESTProject/Saved/TheWeather55165EE744993FB6EF93F096E603C24E.tmp' to '../../../../../GitHub/ProjLab3/TESTProject/Content/Levels/TheWeather.umap'
 [2021.11.01-20.18.04:305][931]AssetCheck: New page: Asset Save: TheWeather
 [2021.11.01-20.18.04:305][931]LogContentValidation: Display: Validating World /Game/Levels/TheWeather.TheWeather
+[2021.11.01-20.21.47:379][724]LogEditorViewport: Clicking on Actor (LMB): TheWeather_Sky_Sphere_C (TheWeather_Sky_Sphere)
+[2021.11.01-20.21.51:645][974]LogProfilingDebugging: Allocated a 1136 x 655 texture for HMD canvas layer
+[2021.11.01-20.21.51:670][975]LogProfilingDebugging: Allocated a 1127 x 655 texture for HMD canvas layer
+[2021.11.01-20.21.51:691][976]LogProfilingDebugging: Allocated a 1101 x 655 texture for HMD canvas layer
+[2021.11.01-20.21.51:728][977]LogProfilingDebugging: Allocated a 1078 x 655 texture for HMD canvas layer
+[2021.11.01-20.21.51:747][978]LogProfilingDebugging: Allocated a 1060 x 655 texture for HMD canvas layer
+[2021.11.01-20.21.51:771][979]LogProfilingDebugging: Allocated a 1054 x 655 texture for HMD canvas layer
+[2021.11.01-20.21.51:790][981]LogProfilingDebugging: Allocated a 1053 x 655 texture for HMD canvas layer
+[2021.11.01-20.21.58:458][361]LogSlate: Window 'Color Picker' being destroyed
+[2021.11.01-20.22.01:707][554]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2021.11.01-20.22.04:162][696]LogEditorViewport: Clicking on Actor (LMB): TheWeather_Sky_Sphere_C (TheWeather_Sky_Sphere)
+[2021.11.01-20.22.04:785][732]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor2)
+[2021.11.01-20.22.07:928][917]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor3)
+[2021.11.01-20.22.12:126][166]LogEditorViewport: Clicking on Actor (LMB): TodayDate_C (TodayDate)
+[2021.11.01-20.22.15:170][346]LogEditorViewport: Clicking on Actor (LMB): TheWeather_Sky_Sphere_C (TheWeather_Sky_Sphere)
+[2021.11.01-20.22.16:460][422]LogEditorViewport: Clicking on Actor (LMB): ViewingDate_C (ViewingDate)
+[2021.11.01-20.22.19:289][589]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor4)
+[2021.11.01-20.22.20:773][676]Cmd: EDIT COPY
+[2021.11.01-20.22.21:266][682]Cmd: EDIT PASTE
+[2021.11.01-20.22.38:200][665]Cmd: EDIT COPY
+[2021.11.01-20.22.39:894][765]LogEditorViewport: Clicking on Actor (LMB): TheWeather_Sky_Sphere_C (TheWeather_Sky_Sphere)
+[2021.11.01-20.22.41:186][841]LogEditorViewport: Clicking on Actor (LMB): TheWeather_Sky_Sphere_C (TheWeather_Sky_Sphere)
+[2021.11.01-20.22.43:218][962]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor8)
+[2021.11.01-20.22.44:237][ 20]Cmd: TRANSACTION UNDO
+[2021.11.01-20.22.44:238][ 20]LogEditorTransaction: Undo Clicking on Actors
+[2021.11.01-20.22.46:465][136]Cmd: TRANSACTION UNDO
+[2021.11.01-20.22.46:465][136]LogEditorTransaction: Undo Move Actors
+[2021.11.01-20.22.46:989][160]Cmd: TRANSACTION UNDO
+[2021.11.01-20.22.46:989][160]LogEditorTransaction: Undo Edit Text
+[2021.11.01-20.22.51:590][430]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor8)
+[2021.11.01-20.22.53:582][549]Cmd: EDIT COPY
+[2021.11.01-20.22.53:899][568]Cmd: EDIT PASTE
+[2021.11.01-20.22.57:137][760]Cmd: TRANSACTION UNDO
+[2021.11.01-20.22.57:138][760]LogEditorTransaction: Undo Move Actors
+[2021.11.01-20.23.17:750][968]LogEditorViewport: Clicking on Actor (LMB): TextWeather_C (TextWeather)
+[2021.11.01-20.23.21:682][202]Cmd: EDIT COPY
+[2021.11.01-20.23.22:033][223]Cmd: EDIT PASTE
+[2021.11.01-20.23.36:643][ 97]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor2)
+[2021.11.01-20.23.38:142][185]LogEditorViewport: Clicking on Actor (CTRL LMB): TodayDate_C (TodayDate)
+[2021.11.01-20.23.42:134][422]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor3)
+[2021.11.01-20.23.42:984][471]LogEditorViewport: Clicking on Actor (CTRL LMB): ViewingDate_C (ViewingDate)
+[2021.11.01-20.23.49:506][859]LogEditorViewport: Clicking on Actor (LMB): TextWeather_C (TextWeather2)
+[2021.11.01-20.23.51:269][963]Cmd: DELETE
+[2021.11.01-20.23.51:304][963]Cmd: ACTOR DELETE
+[2021.11.01-20.23.51:539][963]LogEditorActor: Deleted Actor: TextWeather_C
+[2021.11.01-20.23.51:632][963]LogUObjectHash: Compacting FUObjectHashTables data took   4.23ms
+[2021.11.01-20.23.51:635][963]LogEditorActor: Deleted 1 Actors (0.294 secs)
+[2021.11.01-20.24.07:772][909]Cmd: DELETE
+[2021.11.01-20.24.07:772][909]Cmd: ACTOR DELETE
+[2021.11.01-20.24.07:775][909]LogEditorActor: Deleted Actor: TextRenderActor
+[2021.11.01-20.24.07:805][909]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2021.11.01-20.24.07:807][909]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2021.11.01-20.24.10:615][ 78]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor8)
+[2021.11.01-20.24.11:913][154]Cmd: EDIT COPY
+[2021.11.01-20.24.12:113][166]Cmd: EDIT PASTE
+[2021.11.01-20.24.27:372][421]LogSlate: Window 'Create Blueprint From Selection' being destroyed
+[2021.11.01-20.24.27:467][421]LogActorComponent: UnregisterComponent: (/Game/Data/LowText.Default__LowText_C:NewTextRenderComponent) Not registered. Aborting.
+[2021.11.01-20.24.27:501][421]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2021.11.01-20.24.27:552][421]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Data/LowText.LowText
+[2021.11.01-20.24.36:684][875]LogEditorViewport: Clicking on Actor (LMB): TextWeather_C (TextWeather)
+[2021.11.01-20.24.38:680][990]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TextWeather.TextWeather
+[2021.11.01-20.25.31:502][865]LogSlate: Took 0.013314 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2021.11.01-20.25.41:469][440]BlueprintLog: New page: Compile LowText
+[2021.11.01-20.25.41:508][440]LogBlueprint: Warning: [AssetLog] /Game/Data/LowText.LowText (no disk path found): [Compiler] Could not find a variable named "NewVar_1" in 'LowText_C'.
+Make sure 'LowText_C' has been compiled for  Set NewVar_1
+[2021.11.01-20.25.41:548][440]LogBlueprint: Error: [AssetLog] /Game/Data/LowText.LowText (no disk path found): [Compiler] The property associated with  New Var 1  could not be found in '/Game/Data/LowText.LowText_C'
+[2021.11.01-20.25.41:606][440]LogUObjectHash: Compacting FUObjectHashTables data took   4.43ms
+[2021.11.01-20.25.59:259][453]BlueprintLog: New page: Compile LowText
+[2021.11.01-20.25.59:261][453]LogBlueprint: Warning: [AssetLog] /Game/Data/LowText.LowText (no disk path found): [Compiler] Could not find a variable named "NewVar_1" in 'LowText_C'.
+Make sure 'LowText_C' has been compiled for  Set NewVar_1
+[2021.11.01-20.25.59:261][453]LogBlueprint: Error: [AssetLog] /Game/Data/LowText.LowText (no disk path found): [Compiler] The property associated with  New Var 1  could not be found in '/Game/Data/LowText.LowText_C'
+[2021.11.01-20.25.59:322][453]LogUObjectHash: Compacting FUObjectHashTables data took   4.23ms
+[2021.11.01-20.26.15:152][357]BlueprintLog: New page: Compile LowText
+[2021.11.01-20.26.15:213][357]LogUObjectHash: Compacting FUObjectHashTables data took   4.32ms
+[2021.11.01-20.26.21:120][692]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Data/LowText" FILE="../../../../../GitHub/ProjLab3/TESTProject/Content/Data/LowText.uasset" SILENT=true
+[2021.11.01-20.26.21:134][692]LogSavePackage: Moving '../../../../../GitHub/ProjLab3/TESTProject/Saved/LowText4A4E414F416F932136540A8CF1E1AB55.tmp' to '../../../../../GitHub/ProjLab3/TESTProject/Content/Data/LowText.uasset'
+[2021.11.01-20.26.22:498][692]AssetCheck: New page: Asset Save: LowText
+[2021.11.01-20.26.22:498][692]LogContentValidation: Display: Validating Blueprint /Game/Data/LowText.LowText
+[2021.11.01-20.26.23:681][754]BlueprintLog: New page: Compile LowText
+[2021.11.01-20.26.23:740][754]LogUObjectHash: Compacting FUObjectHashTables data took   4.11ms
+[2021.11.01-20.26.27:285][945]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TheWeather" FILE="../../../../../GitHub/ProjLab3/TESTProject/Content/Levels/TheWeather.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.01-20.26.27:327][945]LogUObjectHash: Compacting FUObjectHashTables data took   4.26ms
+[2021.11.01-20.26.27:344][945]LogSavePackage: Moving '../../../../../GitHub/ProjLab3/TESTProject/Saved/TheWeather7AD8F18F4EC4548A8E6FE88597B01C51.tmp' to '../../../../../GitHub/ProjLab3/TESTProject/Content/Levels/TheWeather.umap'
+[2021.11.01-20.26.27:369][945]AssetCheck: New page: Asset Save: TheWeather
+[2021.11.01-20.26.27:369][945]LogContentValidation: Display: Validating World /Game/Levels/TheWeather.TheWeather
+[2021.11.01-20.26.30:744][126]LogTemp: Repeating last play command: VR Preview
+[2021.11.01-20.26.30:758][126]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.01-20.26.30:758][126]LogHMD: Initializing OVRPlugin session
+[2021.11.01-20.26.30:923][126]LogHMD: Allocating Oculus 2752 x 1376 rendertarget swapchain
+[2021.11.01-20.26.30:924][126]PIE: New page: PIE session: TheWeather (Nov 1, 2021, 10:26:30 AM)
+[2021.11.01-20.26.30:924][126]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TheWeather
+[2021.11.01-20.26.30:929][126]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005024s)
+[2021.11.01-20.26.30:936][126]LogAIModule: Creating AISystem for world TheWeather
+[2021.11.01-20.26.30:936][126]LogPlayLevel: PIE: World Init took: (0.006889s)
+[2021.11.01-20.26.30:936][126]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TheWeather.TheWeather to /Game/Levels/UEDPIE_0_TheWeather.TheWeather (0.012099s)
+[2021.11.01-20.26.30:986][126]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2021.11.01-20.26.30:986][126]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2021.11.01-20.26.30:986][126]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.01-20.26.30:986][126]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.01-20.26.30:986][126]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.01-20.26.30:986][126]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.01-20.26.30:986][126]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2021.11.01-20.26.30:986][126]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2021.11.01-20.26.30:986][126]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2021.11.01-20.26.30:986][126]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.01-20.26.30:987][126]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2021.11.01-20.26.30:987][126]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2021.11.01-20.26.30:987][126]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.11.01-20.26.30:987][126]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.01-20.26.30:991][126]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.01-20.26.30:991][126]LogAudioMixer: Display: 1: FrontRight
+[2021.11.01-20.26.30:993][126]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.01-20.26.30:993][126]LogAudioMixer: Display: 1: FrontRight
+[2021.11.01-20.26.30:995][126]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.01-20.26.30:995][126]LogAudioMixer: Display: 1: FrontRight
+[2021.11.01-20.26.31:008][126]LogAudioMixer: Display: Using Audio Device Headphones (Oculus Virtual Audio Device)
+[2021.11.01-20.26.31:009][126]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.01-20.26.31:009][126]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.01-20.26.31:009][126]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.01-20.26.31:010][126]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.01-20.26.31:010][126]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.11.01-20.26.31:010][126]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.11.01-20.26.31:011][126]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.11.01-20.26.31:012][126]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.11.01-20.26.31:012][126]LogInit: FAudioDevice initialized.
+[2021.11.01-20.26.31:012][126]LogAudio: Display: Audio Device (ID: 12) registered with world 'TheWeather'.
+[2021.11.01-20.26.31:031][126]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.01-20.26.31:102][126]LogLoad: Game class is 'VRGameMode_C'
+[2021.11.01-20.26.31:105][126]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TheWeather.TheWeather up for play (max tick rate 0) at 2021.11.01-15.26.31
+[2021.11.01-20.26.31:106][126]LogWorld: Bringing up level for play took: 0.002514
+[2021.11.01-20.26.31:106][126]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2021.11.01-20.26.31:108][126]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.11.01-20.26.31:115][126]PIE: Server logged in
+[2021.11.01-20.26.31:119][126]PIE: Play in editor total start time 0.369 seconds.
+[2021.11.01-20.26.31:134][126]LogHMD: Allocating Oculus 3136 x 1568 rendertarget swapchain
+[2021.11.01-20.26.31:235][126]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2021.11.01-20.26.31:242][126]LogHMD: Allocating Oculus 3136 x 1568 depth rendertarget swapchain
+[2021.11.01-20.26.31:269][128]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2021.11.01-20.26.44:597][938]LogSlate: Window 'TESTProject Preview [NetMode: Standalone]  (64-bit/Windows) OculusHMD' being destroyed
+[2021.11.01-20.26.44:616][938]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TheWeather
+[2021.11.01-20.26.44:650][938]LogWorld: UWorld::CleanupWorld for TheWeather, bSessionEnded=true, bCleanupResources=true
+[2021.11.01-20.26.44:650][938]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.01-20.26.44:674][938]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.01-20.26.44:690][938]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.01-20.26.44:738][938]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.11.01-20.26.44:738][938]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2021.11.01-20.26.44:738][938]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.01-20.26.44:740][938]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.01-20.26.44:755][938]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2021.11.01-20.26.44:819][939]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2021.11.01-20.26.50:740][262]LogEditorViewport: Clicking on Actor (LMB): LowText_C (LowText)
+[2021.11.01-20.27.01:899][927]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor8)
+[2021.11.01-20.27.10:316][416]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TheWeather" FILE="../../../../../GitHub/ProjLab3/TESTProject/Content/Levels/TheWeather.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.01-20.27.10:356][416]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2021.11.01-20.27.10:373][416]LogSavePackage: Moving '../../../../../GitHub/ProjLab3/TESTProject/Saved/TheWeather17BA58D54CF7A1EE13FB12879CC6D91E.tmp' to '../../../../../GitHub/ProjLab3/TESTProject/Content/Levels/TheWeather.umap'
+[2021.11.01-20.27.10:394][416]AssetCheck: New page: Asset Save: TheWeather
+[2021.11.01-20.27.10:394][416]LogContentValidation: Display: Validating World /Game/Levels/TheWeather.TheWeather
+[2021.11.01-20.27.13:100][562]LogTemp: Repeating last play command: VR Preview
+[2021.11.01-20.27.13:114][562]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.01-20.27.13:114][562]LogHMD: Initializing OVRPlugin session
+[2021.11.01-20.27.13:270][562]LogHMD: Allocating Oculus 2752 x 1376 rendertarget swapchain
+[2021.11.01-20.27.13:270][562]PIE: New page: PIE session: TheWeather (Nov 1, 2021, 10:27:13 AM)
+[2021.11.01-20.27.13:270][562]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TheWeather
+[2021.11.01-20.27.13:275][562]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004719s)
+[2021.11.01-20.27.13:276][562]LogAIModule: Creating AISystem for world TheWeather
+[2021.11.01-20.27.13:276][562]LogPlayLevel: PIE: World Init took: (0.001305s)
+[2021.11.01-20.27.13:277][562]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TheWeather.TheWeather to /Game/Levels/UEDPIE_0_TheWeather.TheWeather (0.006219s)
+[2021.11.01-20.27.13:321][562]LogUObjectHash: Compacting FUObjectHashTables data took   3.77ms
+[2021.11.01-20.27.13:321][562]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2021.11.01-20.27.13:322][562]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.01-20.27.13:322][562]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.01-20.27.13:322][562]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.01-20.27.13:322][562]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.01-20.27.13:322][562]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2021.11.01-20.27.13:322][562]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2021.11.01-20.27.13:322][562]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2021.11.01-20.27.13:322][562]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.01-20.27.13:322][562]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2021.11.01-20.27.13:322][562]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2021.11.01-20.27.13:322][562]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.11.01-20.27.13:322][562]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.01-20.27.13:325][562]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.01-20.27.13:325][562]LogAudioMixer: Display: 1: FrontRight
+[2021.11.01-20.27.13:327][562]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.01-20.27.13:327][562]LogAudioMixer: Display: 1: FrontRight
+[2021.11.01-20.27.13:329][562]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.01-20.27.13:329][562]LogAudioMixer: Display: 1: FrontRight
+[2021.11.01-20.27.13:338][562]LogAudioMixer: Display: Using Audio Device Headphones (Oculus Virtual Audio Device)
+[2021.11.01-20.27.13:338][562]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.01-20.27.13:338][562]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.01-20.27.13:338][562]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.01-20.27.13:339][562]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.01-20.27.13:339][562]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.11.01-20.27.13:339][562]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.11.01-20.27.13:340][562]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.11.01-20.27.13:340][562]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.11.01-20.27.13:341][562]LogInit: FAudioDevice initialized.
+[2021.11.01-20.27.13:341][562]LogAudio: Display: Audio Device (ID: 13) registered with world 'TheWeather'.
+[2021.11.01-20.27.13:359][562]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.01-20.27.13:449][562]LogLoad: Game class is 'VRGameMode_C'
+[2021.11.01-20.27.13:452][562]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TheWeather.TheWeather up for play (max tick rate 0) at 2021.11.01-15.27.13
+[2021.11.01-20.27.13:453][562]LogWorld: Bringing up level for play took: 0.002055
+[2021.11.01-20.27.13:453][562]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2021.11.01-20.27.13:457][562]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.11.01-20.27.13:464][562]PIE: Server logged in
+[2021.11.01-20.27.13:471][562]PIE: Play in editor total start time 0.364 seconds.
+[2021.11.01-20.27.13:572][562]LogHMD: Allocating Oculus 3136 x 1568 rendertarget swapchain
+[2021.11.01-20.27.13:602][562]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2021.11.01-20.27.13:608][562]LogHMD: Allocating Oculus 3136 x 1568 depth rendertarget swapchain
+[2021.11.01-20.27.13:627][564]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2021.11.01-20.27.24:706][231]LogSlate: Window 'TESTProject Preview [NetMode: Standalone]  (64-bit/Windows) OculusHMD' being destroyed
+[2021.11.01-20.27.24:729][231]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TheWeather
+[2021.11.01-20.27.24:729][231]LogWorld: UWorld::CleanupWorld for TheWeather, bSessionEnded=true, bCleanupResources=true
+[2021.11.01-20.27.24:730][231]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.01-20.27.24:743][231]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.01-20.27.24:761][231]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.01-20.27.24:801][231]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.11.01-20.27.24:801][231]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2021.11.01-20.27.24:801][231]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.01-20.27.24:804][231]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.01-20.27.24:822][231]LogUObjectHash: Compacting FUObjectHashTables data took   9.33ms
+[2021.11.01-20.27.24:899][232]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2021.11.01-20.27.30:170][517]LogEditorViewport: Clicking on Actor (LMB): LowText_C (LowText)
+[2021.11.01-20.27.43:413][301]LogEditorViewport: Clicking on Actor (LMB): TheWeather_Sky_Sphere_C (TheWeather_Sky_Sphere)
+[2021.11.01-20.27.45:027][396]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor9)
+[2021.11.01-20.27.55:985][  5]LogEditorViewport: Clicking on Actor (LMB): TheWeather_Sky_Sphere_C (TheWeather_Sky_Sphere)
+[2021.11.01-20.27.59:835][233]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor9)
+[2021.11.01-20.28.00:940][297]Cmd: EDIT COPY
+[2021.11.01-20.28.01:207][313]Cmd: EDIT PASTE
+[2021.11.01-20.28.11:568][917]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2021.11.01-20.28.22:612][917]LogSlate: Window 'Create Blueprint From Selection' being destroyed
+[2021.11.01-20.28.22:633][917]LogActorComponent: UnregisterComponent: (/Game/Data/HighText.Default__HighText_C:NewTextRenderComponent) Not registered. Aborting.
+[2021.11.01-20.28.22:677][917]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2021.11.01-20.28.22:731][917]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Data/HighText.HighText
+[2021.11.01-20.29.00:519][949]LogSlate: Window 'Change Variable Type' being destroyed
+[2021.11.01-20.29.04:547][152]LogSlate: Window 'Find in Blueprints' being destroyed
+[2021.11.01-20.29.04:555][152]LogSlate: Window 'Find in Blueprints' being destroyed
+[2021.11.01-20.29.19:765][944]LogSlate: Window 'Change Variable Type' being destroyed
+[2021.11.01-20.29.23:452][151]LogSlate: Window 'Find in Blueprints' being destroyed
+[2021.11.01-20.29.23:460][151]LogSlate: Window 'Find in Blueprints' being destroyed
+[2021.11.01-20.29.24:615][213]BlueprintLog: New page: Compile HighText
+[2021.11.01-20.29.24:708][213]LogUObjectHash: Compacting FUObjectHashTables data took   4.32ms
+[2021.11.01-20.29.26:373][296]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Data/HighText" FILE="../../../../../GitHub/ProjLab3/TESTProject/Content/Data/HighText.uasset" SILENT=true
+[2021.11.01-20.29.26:385][296]LogSavePackage: Moving '../../../../../GitHub/ProjLab3/TESTProject/Saved/HighTextF0EA47434638EEE9EC394A99D4B00543.tmp' to '../../../../../GitHub/ProjLab3/TESTProject/Content/Data/HighText.uasset'
+[2021.11.01-20.29.27:156][296]AssetCheck: New page: Asset Save: HighText
+[2021.11.01-20.29.27:156][296]LogContentValidation: Display: Validating Blueprint /Game/Data/HighText.HighText
+[2021.11.01-20.29.29:225][417]LogProfilingDebugging: Allocated a 1054 x 655 texture for HMD canvas layer
+[2021.11.01-20.29.30:755][495]LogTemp: Repeating last play command: VR Preview
+[2021.11.01-20.29.30:770][495]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.01-20.29.30:770][495]LogHMD: Initializing OVRPlugin session
+[2021.11.01-20.29.30:938][495]LogHMD: Allocating Oculus 2752 x 1376 rendertarget swapchain
+[2021.11.01-20.29.30:939][495]PIE: New page: PIE session: TheWeather (Nov 1, 2021, 10:29:30 AM)
+[2021.11.01-20.29.30:939][495]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TheWeather
+[2021.11.01-20.29.30:945][495]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005721s)
+[2021.11.01-20.29.30:946][495]LogAIModule: Creating AISystem for world TheWeather
+[2021.11.01-20.29.30:946][495]LogPlayLevel: PIE: World Init took: (0.001226s)
+[2021.11.01-20.29.30:946][495]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TheWeather.TheWeather to /Game/Levels/UEDPIE_0_TheWeather.TheWeather (0.007270s)
+[2021.11.01-20.29.30:992][495]LogUObjectHash: Compacting FUObjectHashTables data took   4.09ms
+[2021.11.01-20.29.30:993][495]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2021.11.01-20.29.30:993][495]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.01-20.29.30:993][495]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.01-20.29.30:993][495]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.01-20.29.30:993][495]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.01-20.29.30:993][495]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2021.11.01-20.29.30:993][495]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2021.11.01-20.29.30:993][495]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2021.11.01-20.29.30:993][495]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.01-20.29.30:994][495]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2021.11.01-20.29.30:994][495]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2021.11.01-20.29.30:994][495]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.11.01-20.29.30:994][495]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.01-20.29.30:997][495]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.01-20.29.30:997][495]LogAudioMixer: Display: 1: FrontRight
+[2021.11.01-20.29.30:998][495]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.01-20.29.30:998][495]LogAudioMixer: Display: 1: FrontRight
+[2021.11.01-20.29.31:001][495]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.01-20.29.31:001][495]LogAudioMixer: Display: 1: FrontRight
+[2021.11.01-20.29.31:024][495]LogAudioMixer: Display: Using Audio Device Headphones (Oculus Virtual Audio Device)
+[2021.11.01-20.29.31:025][495]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.01-20.29.31:025][495]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.01-20.29.31:025][495]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.01-20.29.31:025][495]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.01-20.29.31:026][495]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.11.01-20.29.31:026][495]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.11.01-20.29.31:027][495]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.11.01-20.29.31:027][495]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.11.01-20.29.31:027][495]LogInit: FAudioDevice initialized.
+[2021.11.01-20.29.31:027][495]LogAudio: Display: Audio Device (ID: 14) registered with world 'TheWeather'.
+[2021.11.01-20.29.31:044][495]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.01-20.29.31:137][495]LogLoad: Game class is 'VRGameMode_C'
+[2021.11.01-20.29.31:140][495]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TheWeather.TheWeather up for play (max tick rate 0) at 2021.11.01-15.29.31
+[2021.11.01-20.29.31:141][495]LogWorld: Bringing up level for play took: 0.002216
+[2021.11.01-20.29.31:141][495]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2021.11.01-20.29.31:144][495]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.11.01-20.29.31:149][495]PIE: Server logged in
+[2021.11.01-20.29.31:157][495]PIE: Play in editor total start time 0.393 seconds.
+[2021.11.01-20.29.31:194][495]LogHMD: Allocating Oculus 3136 x 1568 rendertarget swapchain
+[2021.11.01-20.29.31:234][495]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2021.11.01-20.29.31:240][495]LogHMD: Allocating Oculus 3136 x 1568 depth rendertarget swapchain
+[2021.11.01-20.29.31:266][497]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2021.11.01-20.30.25:415][573]LogSlate: Window 'TESTProject Preview [NetMode: Standalone]  (64-bit/Windows) OculusHMD' being destroyed
+[2021.11.01-20.30.25:434][573]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TheWeather
+[2021.11.01-20.30.25:434][573]LogWorld: UWorld::CleanupWorld for TheWeather, bSessionEnded=true, bCleanupResources=true
+[2021.11.01-20.30.25:434][573]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.01-20.30.25:497][573]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.01-20.30.25:517][573]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.01-20.30.25:573][573]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.11.01-20.30.25:573][573]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2021.11.01-20.30.25:573][573]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.01-20.30.25:574][573]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.01-20.30.25:589][573]LogUObjectHash: Compacting FUObjectHashTables data took   3.59ms
+[2021.11.01-20.30.25:645][574]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2021.11.01-20.30.32:643][955]LogEditorViewport: Clicking on Actor (LMB): ViewingDate_C (ViewingDate)
+[2021.11.01-20.30.38:200][282]LogEditorViewport: Clicking on Actor (LMB): TheWeather_Sky_Sphere_C (TheWeather_Sky_Sphere)
+[2021.11.01-20.30.48:042][859]LogEditorViewport: Clicking on Actor (LMB): NextDayTriggerBox2_Blueprint_C (NextDayTriggerBox2_Blueprint)
+[2021.11.01-20.30.49:076][919]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube)
+[2021.11.01-20.30.50:323][992]LogEditorViewport: Clicking on Actor (CTRL LMB): TextRenderActor (TextRenderActor5)
+[2021.11.01-20.30.53:031][150]Cmd: TRANSACTION UNDO
+[2021.11.01-20.30.53:031][150]LogEditorTransaction: Undo Move Actors
+[2021.11.01-20.30.56:407][332]LogEditorViewport: Clicking on Actor (CTRL LMB): TextRenderActor (TextRenderActor6)
+[2021.11.01-20.30.57:805][414]LogEditorViewport: Clicking on Actor (CTRL LMB): TriggerBox_Blueprint_C (PrevDay_TriggerBox_Blueprint)
+[2021.11.01-20.30.59:556][517]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube2)
+[2021.11.01-20.31.05:606][860]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TheWeather" FILE="../../../../../GitHub/ProjLab3/TESTProject/Content/Levels/TheWeather.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.01-20.31.05:651][860]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
+[2021.11.01-20.31.05:669][860]LogSavePackage: Moving '../../../../../GitHub/ProjLab3/TESTProject/Saved/TheWeather0C52AB0B4528BAC1EC08D79918AAE3BA.tmp' to '../../../../../GitHub/ProjLab3/TESTProject/Content/Levels/TheWeather.umap'
+[2021.11.01-20.31.05:703][860]AssetCheck: New page: Asset Save: TheWeather
+[2021.11.01-20.31.05:703][860]LogContentValidation: Display: Validating World /Game/Levels/TheWeather.TheWeather
+[2021.11.01-20.31.07:883][978]LogEditorViewport: Clicking on Actor (LMB): TheWeather_Sky_Sphere_C (TheWeather_Sky_Sphere)
+[2021.11.01-20.31.11:401][171]LogTemp: Repeating last play command: VR Preview
+[2021.11.01-20.31.11:415][171]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.01-20.31.11:415][171]LogHMD: Initializing OVRPlugin session
+[2021.11.01-20.31.11:578][171]LogHMD: Allocating Oculus 2752 x 1376 rendertarget swapchain
+[2021.11.01-20.31.11:579][171]PIE: New page: PIE session: TheWeather (Nov 1, 2021, 10:31:11 AM)
+[2021.11.01-20.31.11:579][171]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TheWeather
+[2021.11.01-20.31.11:586][171]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006655s)
+[2021.11.01-20.31.11:587][171]LogAIModule: Creating AISystem for world TheWeather
+[2021.11.01-20.31.11:587][171]LogPlayLevel: PIE: World Init took: (0.001336s)
+[2021.11.01-20.31.11:587][171]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TheWeather.TheWeather to /Game/Levels/UEDPIE_0_TheWeather.TheWeather (0.008188s)
+[2021.11.01-20.31.11:644][171]LogUObjectHash: Compacting FUObjectHashTables data took   3.82ms
+[2021.11.01-20.31.11:645][171]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2021.11.01-20.31.11:645][171]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.01-20.31.11:645][171]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.01-20.31.11:645][171]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.01-20.31.11:645][171]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.01-20.31.11:645][171]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2021.11.01-20.31.11:645][171]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2021.11.01-20.31.11:645][171]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2021.11.01-20.31.11:645][171]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.01-20.31.11:646][171]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2021.11.01-20.31.11:646][171]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2021.11.01-20.31.11:647][171]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.11.01-20.31.11:647][171]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.01-20.31.11:650][171]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.01-20.31.11:650][171]LogAudioMixer: Display: 1: FrontRight
+[2021.11.01-20.31.11:652][171]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.01-20.31.11:652][171]LogAudioMixer: Display: 1: FrontRight
+[2021.11.01-20.31.11:654][171]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.01-20.31.11:654][171]LogAudioMixer: Display: 1: FrontRight
+[2021.11.01-20.31.11:663][171]LogAudioMixer: Display: Using Audio Device Headphones (Oculus Virtual Audio Device)
+[2021.11.01-20.31.11:663][171]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.01-20.31.11:663][171]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.01-20.31.11:663][171]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.01-20.31.11:663][171]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.01-20.31.11:664][171]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.11.01-20.31.11:664][171]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.11.01-20.31.11:665][171]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.11.01-20.31.11:665][171]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.11.01-20.31.11:665][171]LogInit: FAudioDevice initialized.
+[2021.11.01-20.31.11:665][171]LogAudio: Display: Audio Device (ID: 15) registered with world 'TheWeather'.
+[2021.11.01-20.31.11:684][171]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.01-20.31.11:759][171]LogLoad: Game class is 'VRGameMode_C'
+[2021.11.01-20.31.11:763][171]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TheWeather.TheWeather up for play (max tick rate 0) at 2021.11.01-15.31.11
+[2021.11.01-20.31.11:764][171]LogWorld: Bringing up level for play took: 0.003188
+[2021.11.01-20.31.11:764][171]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2021.11.01-20.31.11:766][171]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.11.01-20.31.11:773][171]PIE: Server logged in
+[2021.11.01-20.31.11:779][171]PIE: Play in editor total start time 0.371 seconds.
+[2021.11.01-20.31.11:845][171]LogHMD: Allocating Oculus 3136 x 1568 rendertarget swapchain
+[2021.11.01-20.31.11:883][171]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2021.11.01-20.31.11:886][171]LogHMD: Allocating Oculus 3136 x 1568 depth rendertarget swapchain
+[2021.11.01-20.31.11:902][173]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2021.11.01-20.32.05:910][181]LogSlate: Window 'TESTProject Preview [NetMode: Standalone]  (64-bit/Windows) OculusHMD' being destroyed
+[2021.11.01-20.32.05:929][181]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TheWeather
+[2021.11.01-20.32.05:930][181]LogWorld: UWorld::CleanupWorld for TheWeather, bSessionEnded=true, bCleanupResources=true
+[2021.11.01-20.32.05:930][181]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.01-20.32.05:947][181]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.01-20.32.05:962][181]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.01-20.32.06:005][181]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.11.01-20.32.06:006][181]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2021.11.01-20.32.06:006][181]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.01-20.32.06:007][181]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.01-20.32.06:033][181]LogUObjectHash: Compacting FUObjectHashTables data took   4.81ms
+[2021.11.01-20.32.06:099][182]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2021.11.01-20.32.10:980][451]LogEditorViewport: Clicking on Actor (LMB): TriggerBox_Blueprint_C (PrevDay_TriggerBox_Blueprint)
+[2021.11.01-20.32.12:319][529]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube2)
+[2021.11.01-20.32.13:202][580]LogEditorViewport: Clicking on Actor (CTRL LMB): TextRenderActor (TextRenderActor6)
+[2021.11.01-20.32.14:771][672]LogEditorViewport: Clicking on Actor (CTRL LMB): NextDayTriggerBox2_Blueprint_C (NextDayTriggerBox2_Blueprint)
+[2021.11.01-20.32.15:574][718]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube)
+[2021.11.01-20.32.16:271][758]LogEditorViewport: Clicking on Actor (CTRL LMB): TextRenderActor (TextRenderActor5)
+[2021.11.01-20.32.20:363][988]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TheWeather" FILE="../../../../../GitHub/ProjLab3/TESTProject/Content/Levels/TheWeather.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.01-20.32.20:406][988]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2021.11.01-20.32.20:423][988]LogSavePackage: Moving '../../../../../GitHub/ProjLab3/TESTProject/Saved/TheWeather1C41BB0D4EB81E2A4A28E69B74A1C078.tmp' to '../../../../../GitHub/ProjLab3/TESTProject/Content/Levels/TheWeather.umap'
+[2021.11.01-20.32.20:453][988]AssetCheck: New page: Asset Save: TheWeather
+[2021.11.01-20.32.20:453][988]LogContentValidation: Display: Validating World /Game/Levels/TheWeather.TheWeather
+[2021.11.01-20.32.22:886][122]LogTemp: Repeating last play command: VR Preview
+[2021.11.01-20.32.22:900][122]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.01-20.32.22:900][122]LogHMD: Initializing OVRPlugin session
+[2021.11.01-20.32.23:069][122]LogHMD: Allocating Oculus 2752 x 1376 rendertarget swapchain
+[2021.11.01-20.32.23:070][122]PIE: New page: PIE session: TheWeather (Nov 1, 2021, 10:32:23 AM)
+[2021.11.01-20.32.23:070][122]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TheWeather
+[2021.11.01-20.32.23:077][122]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007113s)
+[2021.11.01-20.32.23:079][122]LogAIModule: Creating AISystem for world TheWeather
+[2021.11.01-20.32.23:079][122]LogPlayLevel: PIE: World Init took: (0.002013s)
+[2021.11.01-20.32.23:079][122]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TheWeather.TheWeather to /Game/Levels/UEDPIE_0_TheWeather.TheWeather (0.009407s)
+[2021.11.01-20.32.23:127][122]LogUObjectHash: Compacting FUObjectHashTables data took   4.34ms
+[2021.11.01-20.32.23:128][122]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2021.11.01-20.32.23:128][122]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.01-20.32.23:128][122]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.01-20.32.23:128][122]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.01-20.32.23:128][122]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.01-20.32.23:128][122]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2021.11.01-20.32.23:128][122]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2021.11.01-20.32.23:128][122]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2021.11.01-20.32.23:128][122]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.01-20.32.23:128][122]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2021.11.01-20.32.23:128][122]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2021.11.01-20.32.23:128][122]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.11.01-20.32.23:128][122]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.01-20.32.23:131][122]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.01-20.32.23:131][122]LogAudioMixer: Display: 1: FrontRight
+[2021.11.01-20.32.23:133][122]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.01-20.32.23:133][122]LogAudioMixer: Display: 1: FrontRight
+[2021.11.01-20.32.23:136][122]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.01-20.32.23:136][122]LogAudioMixer: Display: 1: FrontRight
+[2021.11.01-20.32.23:145][122]LogAudioMixer: Display: Using Audio Device Headphones (Oculus Virtual Audio Device)
+[2021.11.01-20.32.23:145][122]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.01-20.32.23:145][122]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.01-20.32.23:145][122]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.01-20.32.23:146][122]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.01-20.32.23:146][122]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.11.01-20.32.23:146][122]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.11.01-20.32.23:149][122]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.11.01-20.32.23:149][122]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.11.01-20.32.23:149][122]LogInit: FAudioDevice initialized.
+[2021.11.01-20.32.23:150][122]LogAudio: Display: Audio Device (ID: 16) registered with world 'TheWeather'.
+[2021.11.01-20.32.23:174][122]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.01-20.32.23:261][122]LogLoad: Game class is 'VRGameMode_C'
+[2021.11.01-20.32.23:265][122]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TheWeather.TheWeather up for play (max tick rate 0) at 2021.11.01-15.32.23
+[2021.11.01-20.32.23:266][122]LogWorld: Bringing up level for play took: 0.003584
+[2021.11.01-20.32.23:266][122]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2021.11.01-20.32.23:269][122]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.11.01-20.32.23:275][122]PIE: Server logged in
+[2021.11.01-20.32.23:279][122]PIE: Play in editor total start time 0.386 seconds.
+[2021.11.01-20.32.23:332][122]LogHMD: Allocating Oculus 3136 x 1568 rendertarget swapchain
+[2021.11.01-20.32.23:376][122]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2021.11.01-20.32.23:383][122]LogHMD: Allocating Oculus 3136 x 1568 depth rendertarget swapchain
+[2021.11.01-20.32.23:411][124]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2021.11.01-20.32.51:861][204]LogBlueprintUserMessages: [PrevDay_TriggerBox_Blueprint] Can't go back further!
+[2021.11.01-20.33.44:343][ 12]LogBlueprintUserMessages: [PrevDay_TriggerBox_Blueprint] Can't go back further!
+[2021.11.01-20.34.00:240][561]LogSlate: Window 'TESTProject Preview [NetMode: Standalone]  (64-bit/Windows) OculusHMD' being destroyed
+[2021.11.01-20.34.00:261][561]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TheWeather
+[2021.11.01-20.34.00:261][561]LogWorld: UWorld::CleanupWorld for TheWeather, bSessionEnded=true, bCleanupResources=true
+[2021.11.01-20.34.00:261][561]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.01-20.34.00:277][561]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.01-20.34.00:305][561]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.01-20.34.00:353][561]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2021.11.01-20.34.00:354][561]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.01-20.34.00:357][561]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.01-20.34.00:375][561]LogUObjectHash: Compacting FUObjectHashTables data took   3.89ms
+[2021.11.01-20.34.00:427][562]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2021.11.01-20.34.01:014][564]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2021.11.01-20.34.01:947][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TheWeather" FILE="../../../../../GitHub/ProjLab3/TESTProject/Content/Levels/TheWeather.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.01-20.34.01:994][603]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2021.11.01-20.34.02:016][603]LogSavePackage: Moving '../../../../../GitHub/ProjLab3/TESTProject/Saved/TheWeather4B8D8DE648DCBC7CCCFD62953E84E8C1.tmp' to '../../../../../GitHub/ProjLab3/TESTProject/Content/Levels/TheWeather.umap'
+[2021.11.01-20.34.02:043][603]AssetCheck: New page: Asset Save: TheWeather
+[2021.11.01-20.34.02:043][603]LogContentValidation: Display: Validating World /Game/Levels/TheWeather.TheWeather
+[2021.11.01-20.34.06:696][661]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TheWeather" FILE="../../../../../GitHub/ProjLab3/TESTProject/Content/Levels/TheWeather.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.01-20.34.06:738][661]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2021.11.01-20.34.06:757][661]LogSavePackage: Moving '../../../../../GitHub/ProjLab3/TESTProject/Saved/TheWeatherC73ECC154C02E2E5BCD7E2B446F73353.tmp' to '../../../../../GitHub/ProjLab3/TESTProject/Content/Levels/TheWeather.umap'
+[2021.11.01-20.34.06:779][661]AssetCheck: New page: Asset Save: TheWeather
+[2021.11.01-20.34.06:779][661]LogContentValidation: Display: Validating World /Game/Levels/TheWeather.TheWeather
+[2021.11.01-20.34.08:982][764]Candidate modules for hot reload:
+[2021.11.01-20.34.08:982][764]  TESTProject
+[2021.11.01-20.34.08:982][764]Launching UnrealBuildTool... [D:/Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TESTProject,6827 TESTProjectEditor Win64 Development -Project="D:/GitHub/ProjLab3/TESTProject/TESTProject.uproject" "D:/GitHub/ProjLab3/TESTProject/TESTProject.uproject"  -IgnoreJunk]
+[2021.11.01-20.34.09:035][764]Warning: Starting HotReload took  0.1s.
+[2021.11.01-20.35.45:014][491]CompilerResultsLog: New page: Compilation - Nov 1, 2021, 10:35:45 AM
+[2021.11.01-20.35.45:015][491]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\GitHub\ProjLab3).
+[2021.11.01-20.35.45:015][491]CompilerResultsLog: Creating makefile for TESTProjectEditor (game project files are newer)
+[2021.11.01-20.35.45:015][491]CompilerResultsLog: Building TESTProjectEditor...
+[2021.11.01-20.35.45:015][491]CompilerResultsLog: Using Visual Studio 2019 14.29.30133 toolchain (D:\Program Files\VS\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.11.01-20.35.45:015][491]CompilerResultsLog: Building 9 actions with 8 processes...
+[2021.11.01-20.35.45:015][491]CompilerResultsLog:   [1/9] SharedPCH.Engine.ShadowErrors.cpp
+[2021.11.01-20.35.45:015][491]CompilerResultsLog:   [2/9] MyClass.cpp
+[2021.11.01-20.35.45:015][491]CompilerResultsLog:   [3/9] TESTProject.cpp
+[2021.11.01-20.35.45:015][491]CompilerResultsLog:   [4/9] yourBlueprintFunctionLibrary.cpp
+[2021.11.01-20.35.45:015][491]CompilerResultsLog:   [5/9] TESTProject.init.gen.cpp
+[2021.11.01-20.35.45:015][491]CompilerResultsLog:   [6/9] yourBlueprintFunctionLibrary.gen.cpp
+[2021.11.01-20.35.45:015][491]CompilerResultsLog:   [7/9] UE4Editor-TESTProject-6827.lib
+[2021.11.01-20.35.45:015][491]CompilerResultsLog:      Creating library D:\GitHub\ProjLab3\TESTProject\Intermediate\Build\Win64\UE4Editor\Development\TESTProject\UE4Editor-TESTProject-6827.lib and object D:\GitHub\ProjLab3\TESTProject\Intermediate\Build\Win64\UE4Editor\Development\TESTProject\UE4Editor-TESTProject-6827.exp
+[2021.11.01-20.35.45:015][491]CompilerResultsLog:   [8/9] UE4Editor-TESTProject-6827.dll
+[2021.11.01-20.35.45:015][491]CompilerResultsLog:      Creating library D:\GitHub\ProjLab3\TESTProject\Intermediate\Build\Win64\UE4Editor\Development\TESTProject\UE4Editor-TESTProject-6827.suppressed.lib and object D:\GitHub\ProjLab3\TESTProject\Intermediate\Build\Win64\UE4Editor\Development\TESTProject\UE4Editor-TESTProject-6827.suppressed.exp
+[2021.11.01-20.35.45:015][491]CompilerResultsLog:   [9/9] TESTProjectEditor.target
+[2021.11.01-20.35.45:015][491]CompilerResultsLog: Total time in Parallel executor: 78.75 seconds
+[2021.11.01-20.35.45:015][491]CompilerResultsLog: Total execution time: 95.54 seconds
+[2021.11.01-20.35.45:059][491]LogMainFrame: MainFrame: Module compiling took 96.126 seconds
+[2021.11.01-20.35.45:678][491]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'TESTProject' in 0.0243 seconds. Added 1 classes and 2 folders.
+[2021.11.01-20.35.45:929][491]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2021.11.01-20.35.47:750][491]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0310 seconds. Added 3792 classes and 946 folders.
+[2021.11.01-20.35.47:890][491]Display: HotReload took 99.0s.
+[2021.11.01-20.35.48:813][493]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2021.11.01-20.35.49:316][494]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2021.11.01-20.35.49:815][494]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2021.11.01-20.35.50:321][495]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2021.11.01-20.35.50:820][495]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2021.11.01-20.35.51:321][496]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2021.11.01-20.35.53:825][496]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2021.11.01-20.35.56:324][496]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2021.11.01-20.35.56:825][497]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2021.11.01-20.35.56:825][497]LogRendererCore: Warning: Query 'SlateUI' not ready.
+[2021.11.01-20.36.01:825][497]LogD3D11RHI: GetQueryData is taking a very long time (5.0 s) (00000000)
+[2021.11.01-20.36.11:170][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TheWeather" FILE="../../../../../GitHub/ProjLab3/TESTProject/Content/Levels/TheWeather.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.01-20.36.11:348][796]LogUObjectHash: Compacting FUObjectHashTables data took   5.66ms
+[2021.11.01-20.36.11:368][796]LogSavePackage: Moving '../../../../../GitHub/ProjLab3/TESTProject/Saved/TheWeather83B5F4AA409E271F6F2C4186C8CAF668.tmp' to '../../../../../GitHub/ProjLab3/TESTProject/Content/Levels/TheWeather.umap'
+[2021.11.01-20.36.11:394][796]AssetCheck: New page: Asset Save: TheWeather
+[2021.11.01-20.36.11:395][796]LogContentValidation: Display: Validating World /Game/Levels/TheWeather.TheWeather

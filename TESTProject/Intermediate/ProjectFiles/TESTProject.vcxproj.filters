@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TESTProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{3D7E057A-A0F6-496E-8F5D-8ECA6A46F465}</UniqueIdentifier>
+      <UniqueIdentifier>{6A8D852A-9ED6-4AA3-A553-6164782EB155}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TESTProject.Target.cs">
       <Filter>Source</Filter>
@@ -16,7 +16,7 @@
     <None Include="..\..\PN_OpenWorldFoliage.png" />
     <None Include="..\..\TESTProject.code-workspace" />
     <Filter Include="Config">
-      <UniqueIdentifier>{2C7E1179-5401-48E9-BA1F-E44B376B3F55}</UniqueIdentifier>
+      <UniqueIdentifier>{C56D9D3F-9490-447E-A60E-CA4AD7B640D4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -31,7 +31,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\TESTProject">
-      <UniqueIdentifier>{5FF6B468-EF05-45D8-A044-F52AC7447D3F}</UniqueIdentifier>
+      <UniqueIdentifier>{2E56A749-70F6-4142-9813-35AC00853B16}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TESTProject\TESTProject.Build.cs">
       <Filter>Source\TESTProject</Filter>
@@ -49,13 +49,13 @@
       <Filter>Source\TESTProject</Filter>
     </ClInclude>
     <Filter Include="Source\TESTProject\Private">
-      <UniqueIdentifier>{34129473-BE5D-4E36-8AB3-892D7FDB90CB}</UniqueIdentifier>
+      <UniqueIdentifier>{ACEB6A95-D7A8-44A8-9454-DF1BD1D12838}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\TESTProject\Private\MyClass.cpp">
       <Filter>Source\TESTProject\Private</Filter>
     </ClCompile>
     <Filter Include="Source\TESTProject\Public">
-      <UniqueIdentifier>{53302D95-3255-4F22-968B-8A37ACCC3811}</UniqueIdentifier>
+      <UniqueIdentifier>{7875B335-E8D2-4CFB-9161-7301EEDC428C}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\TESTProject\Public\MyClass.h">
       <Filter>Source\TESTProject\Public</Filter>

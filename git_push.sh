@@ -1,5 +1,5 @@
 
-cd Users/kathrynscutt/data
+cd Users/kathrynscutt/data/weather.csv
 git add .
 git commit -m"auto push"
 if [ -n "$(git status - porcelain)" ];

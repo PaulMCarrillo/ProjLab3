@@ -18205,3 +18205,246 @@ It is recommended that you free some space to avoid issues such as crashed and d
 [2021.11.16-07.54.57:065][896]AssetCheck: New page: Asset Save: multiple assets
 [2021.11.16-07.54.57:065][896]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/StatsHall_BuiltData.StatsHall_BuiltData
 [2021.11.16-07.54.57:065][896]LogContentValidation: Display: Validating World /Game/Levels/StatsHall.StatsHall
+[2021.11.16-07.56.27:084][822]LogContentBrowser: Deferred new asset file creation: EntranceMap1
+[2021.11.16-07.56.27:345][822]LogContentBrowser: Creating deferred item: EntranceMap1
+[2021.11.16-07.56.36:100][314]LogContentBrowser: Attempting asset rename: EntranceMap1 -> TheHallOfCovid
+[2021.11.16-07.56.36:400][314]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2021.11.16-07.56.36:666][314]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TheHallOfCovid" FILE="../../../../../GitHub/ProjLab3/TESTProject/Content/Levels/TheHallOfCovid.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.16-07.56.36:696][314]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2021.11.16-07.56.36:750][314]LogSavePackage: Moving '../../../../../GitHub/ProjLab3/TESTProject/Saved/TheHallOfCovid5B39ECBB4CAD17F27845698A1EE67F79.tmp' to '../../../../../GitHub/ProjLab3/TESTProject/Content/Levels/TheHallOfCovid.umap'
+[2021.11.16-07.56.37:231][314]LogFileHelpers: Saving map 'TheHallOfCovid' took 0.566
+[2021.11.16-07.56.37:563][314]LogContentBrowser: End creating deferred item EntranceMap1
+[2021.11.16-07.56.37:608][314]AssetCheck: New page: Asset Save: TheHallOfCovid
+[2021.11.16-07.56.37:608][314]LogContentValidation: Display: Validating World /Game/Levels/TheHallOfCovid.TheHallOfCovid
+[2021.11.16-07.56.39:066][397]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2021.11.16-07.56.39:107][397]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/TheHallOfCovid.TheHallOfCovid
+[2021.11.16-07.56.39:108][397]Cmd: MAP LOAD FILE="../../../../../GitHub/ProjLab3/TESTProject/Content/Levels/TheHallOfCovid.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.11.16-07.56.39:108][397]LightingResults: New page: Lighting Build
+[2021.11.16-07.56.39:108][397]LoadErrors: New page: Loading map: TheHallOfCovid.umap
+[2021.11.16-07.56.39:127][397]LogWorld: UWorld::CleanupWorld for StatsHall, bSessionEnded=true, bCleanupResources=true
+[2021.11.16-07.56.39:128][397]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.16-07.56.39:128][397]MapCheck: New page: Map Check
+[2021.11.16-07.56.39:129][397]LightingResults: New page: Lighting Build
+[2021.11.16-07.56.39:147][397]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.11.16-07.56.39:153][397]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2021.11.16-07.56.39:178][397]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2021.11.16-07.56.39:222][397]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2021.11.16-07.56.39:246][397]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2021.11.16-07.56.39:246][397]LogAudio: Display: Audio Device (ID: 1) registered with world 'TheHallOfCovid'.
+[2021.11.16-07.56.39:253][397]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.11.16-07.56.39:253][397]LogAIModule: Creating AISystem for world TheHallOfCovid
+[2021.11.16-07.56.39:277][397]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2021.11.16-07.56.39:283][397]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.11.16-07.56.39:283][397]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.095ms to complete.
+[2021.11.16-07.56.39:283][397]LogFileHelpers: Loading map 'TheHallOfCovid' took 0.175
+[2021.11.16-07.56.47:284][817]Cmd: DELETE
+[2021.11.16-07.56.47:297][817]Cmd: ACTOR DELETE
+[2021.11.16-07.56.47:456][817]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.56.47:464][817]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.56.47:465][817]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.56.47:465][817]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.56.47:466][817]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.56.47:466][817]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.56.47:466][817]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.56.47:466][817]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.56.47:467][817]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.56.47:467][817]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.56.47:486][817]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2021.11.16-07.56.47:491][817]LogEditorActor: Deleted 10 Actors (0.101 secs)
+[2021.11.16-07.56.53:618][163]Cmd: DELETE
+[2021.11.16-07.56.53:618][163]Cmd: ACTOR DELETE
+[2021.11.16-07.56.53:621][163]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.56.53:622][163]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.56.53:623][163]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.56.53:624][163]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.56.53:624][163]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.56.53:625][163]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.56.53:625][163]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.56.53:625][163]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.56.53:626][163]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.56.53:626][163]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.56.53:646][163]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2021.11.16-07.56.53:650][163]LogEditorActor: Deleted 10 Actors (0.032 secs)
+[2021.11.16-07.57.00:968][596]Cmd: DELETE
+[2021.11.16-07.57.00:968][596]Cmd: ACTOR DELETE
+[2021.11.16-07.57.00:974][596]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.57.00:975][596]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.57.00:976][596]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.57.00:976][596]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.57.00:977][596]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.57.00:977][596]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.57.00:978][596]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.57.00:978][596]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.57.00:978][596]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.57.00:979][596]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.57.00:979][596]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.57.00:980][596]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.57.00:980][596]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.57.00:980][596]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.57.00:980][596]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.57.00:980][596]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.57.00:981][596]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.57.00:981][596]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.57.01:001][596]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2021.11.16-07.57.01:003][596]LogEditorActor: Deleted 18 Actors (0.034 secs)
+[2021.11.16-07.57.10:100][130]Cmd: DELETE
+[2021.11.16-07.57.10:100][130]Cmd: ACTOR DELETE
+[2021.11.16-07.57.10:103][130]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.57.10:104][130]LogEditorActor: Deleted Actor: Emitter
+[2021.11.16-07.57.10:104][130]LogEditorActor: Deleted Actor: Emitter
+[2021.11.16-07.57.10:105][130]LogEditorActor: Deleted Actor: Emitter
+[2021.11.16-07.57.10:106][130]LogEditorActor: Deleted Actor: Emitter
+[2021.11.16-07.57.10:106][130]LogEditorActor: Deleted Actor: Emitter
+[2021.11.16-07.57.10:107][130]LogEditorActor: Deleted Actor: Emitter
+[2021.11.16-07.57.10:107][130]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.57.10:108][130]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.57.10:110][130]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.57.10:110][130]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.57.10:110][130]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.57.10:129][130]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2021.11.16-07.57.10:132][130]LogEditorActor: Deleted 12 Actors (0.031 secs)
+[2021.11.16-07.57.14:364][381]Cmd: DELETE
+[2021.11.16-07.57.14:364][381]Cmd: ACTOR DELETE
+[2021.11.16-07.57.14:367][381]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.57.14:387][381]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2021.11.16-07.57.14:389][381]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2021.11.16-07.57.19:519][680]Cmd: DELETE
+[2021.11.16-07.57.19:520][680]Cmd: ACTOR DELETE
+[2021.11.16-07.57.19:522][680]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.57.19:522][680]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.57.19:524][680]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.16-07.57.19:544][680]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2021.11.16-07.57.19:545][680]LogEditorActor: Deleted 3 Actors (0.025 secs)
+[2021.11.16-07.57.23:532][919]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2021.11.16-07.57.24:577][969]Cmd: DELETE
+[2021.11.16-07.57.24:577][969]Cmd: ACTOR DELETE
+[2021.11.16-07.57.27:936][969]LogSlate: Window 'Message' being destroyed
+[2021.11.16-07.57.27:945][969]Message dialog closed, result: Yes, title: Message, text: Actor TriggerBox is referenced by the level blueprint.
+Do you really want to delete it? This will break references.
+
+Reference List:
+
+Actor Begin Overlap Signature  Delegate Signature
+[2021.11.16-07.57.27:946][969]LogEditorActor: Deleted Actor: TriggerBox
+[2021.11.16-07.57.27:969][969]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2021.11.16-07.57.27:971][969]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2021.11.16-08.09.45:285][634]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2021.11.16-08.09.45:786][634]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2021.11.16-08.09.46:287][634]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2021.11.16-08.09.46:786][634]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2021.11.16-08.09.47:286][634]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2021.11.16-08.09.47:787][634]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2021.11.16-08.09.48:287][634]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2021.11.16-08.09.48:787][634]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2021.11.16-08.11.05:783][815]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Paul/Downloads/uploads_files_2377503_virus.obj.obj)
+[2021.11.16-08.11.06:002][815]LogFbx: Loading FBX Scene from C:/Users/Paul/Downloads/uploads_files_2377503_virus.obj.obj
+[2021.11.16-08.11.06:080][815]LogFbx: FBX Scene Loaded Succesfully
+[2021.11.16-08.11.09:379][815]LogSlate: Window 'FBX Import Options' being destroyed
+[2021.11.16-08.11.10:690][815]LogMaterial: Display: Missing cached shadermap for virus_SphereMat in PCD3D_SM5, Default, SM5 (DDC key hash: 601B3AEE6681AE8E87C24F42AB9E2C8DD35D8F31), compiling. 
+[2021.11.16-08.11.10:895][815]LogFbx: Display: Triangulating static mesh virus_Sphere
+[2021.11.16-08.11.11:182][815]LogStaticMesh: Building static mesh uploads_files_2377503_virus_obj...
+[2021.11.16-08.11.11:386][815]LogStaticMesh: Built static mesh [0.20s] /Game/uploads_files_2377503_virus_obj.uploads_files_2377503_virus_obj
+[2021.11.16-08.11.11:542][815]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2021.11.16-08.11.11:967][820]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2021.11.16-08.11.11:978][820]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.11.16-08.11.11:978][820]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.11.16-08.11.12:072][820]LogShaderCompilers: Display: Submitted 14 shader compile jobs with 'Normal' priority
+[2021.11.16-08.11.12:108][821]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 14
+[2021.11.16-08.11.12:108][821]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2021.11.16-08.11.14:754][974]LogSlate: Window 'Message Log' being destroyed
+[2021.11.16-08.11.14:764][974]LogSlate: Window 'Message Log' being destroyed
+[2021.11.16-08.11.17:317][107]LogActorFactory: Actor Factory created uploads_files_2377503_virus_obj
+[2021.11.16-08.11.18:376][166]LogActorFactory: Actor Factory created uploads_files_2377503_virus_obj
+[2021.11.16-08.11.20:555][290]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2021.11.16-08.11.20:555][290]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2021.11.16-08.11.20:617][290]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2021.11.16-08.11.20:617][290]LogShaderCompilers: Display: Total job queries 16, among them cache hits 0 (0.00%)
+[2021.11.16-08.11.20:617][290]LogShaderCompilers: Display: Tracking 2 distinct input hashes that result in 2 distinct outputs (100.00%)
+[2021.11.16-08.11.20:627][290]LogShaderCompilers: Display: RAM used: 0.03 MB (0.00 GB) of 614.40 MB (0.60 GB) budget. Usage: 0.01%
+[2021.11.16-08.11.20:627][290]LogShaderCompilers: Display: ================================================
+[2021.11.16-08.11.26:406][532]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2021.11.16-08.11.26:406][532]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'Normal' priority
+[2021.11.16-08.11.32:402][800]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TheHallOfCovid" FILE="../../../../../GitHub/ProjLab3/TESTProject/Content/Levels/TheHallOfCovid.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.16-08.11.32:611][800]LogUObjectHash: Compacting FUObjectHashTables data took   6.29ms
+[2021.11.16-08.11.32:656][800]LogSavePackage: Moving '../../../../../GitHub/ProjLab3/TESTProject/Saved/TheHallOfCovid20602D3A408AA6D4BA7EBCB9433AF77A.tmp' to '../../../../../GitHub/ProjLab3/TESTProject/Content/Levels/TheHallOfCovid.umap'
+[2021.11.16-08.11.32:686][800]AssetCheck: New page: Asset Save: TheHallOfCovid
+[2021.11.16-08.11.32:686][800]LogContentValidation: Display: Validating World /Game/Levels/TheHallOfCovid.TheHallOfCovid
+[2021.11.16-08.11.34:460][890]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2021.11.16-08.11.34:461][890]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2021.11.16-08.18.53:283][101]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TheHallOfCovid" FILE="../../../../../GitHub/ProjLab3/TESTProject/Content/Levels/TheHallOfCovid.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.16-08.18.53:653][101]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2021.11.16-08.18.53:718][101]LogSavePackage: Moving '../../../../../GitHub/ProjLab3/TESTProject/Saved/TheHallOfCovidB2F8B5034FFDE113672A8B8E77181C92.tmp' to '../../../../../GitHub/ProjLab3/TESTProject/Content/Levels/TheHallOfCovid.umap'
+[2021.11.16-08.18.53:743][101]AssetCheck: New page: Asset Save: TheHallOfCovid
+[2021.11.16-08.18.53:743][101]LogContentValidation: Display: Validating World /Game/Levels/TheHallOfCovid.TheHallOfCovid
+[2021.11.16-08.18.56:227][210]Candidate modules for hot reload:
+[2021.11.16-08.18.56:227][210]  TESTProject
+[2021.11.16-08.18.56:236][210]Launching UnrealBuildTool... [D:/Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TESTProject,4771 TESTProjectEditor Win64 Development -Project="D:/GitHub/ProjLab3/TESTProject/TESTProject.uproject" "D:/GitHub/ProjLab3/TESTProject/TESTProject.uproject"  -IgnoreJunk]
+[2021.11.16-08.18.56:318][210]Warning: Starting HotReload took  0.2s.
+[2021.11.16-08.20.51:698][391]CompilerResultsLog: New page: Compilation - Nov 15, 2021, 8:20:51 PM
+[2021.11.16-08.20.51:698][391]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\GitHub\ProjLab3).
+[2021.11.16-08.20.51:698][391]CompilerResultsLog: Creating makefile for TESTProjectEditor (game project files are newer)
+[2021.11.16-08.20.51:698][391]CompilerResultsLog: Parsing headers for TESTProjectEditor
+[2021.11.16-08.20.51:698][391]CompilerResultsLog:   Running UnrealHeaderTool "D:\GitHub\ProjLab3\TESTProject\TESTProject.uproject" "D:\GitHub\ProjLab3\TESTProject\Intermediate\Build\Win64\TESTProjectEditor\Development\TESTProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Paul\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.11.16-08.20.51:698][391]CompilerResultsLog: LogInit: Display: Loading text-based GConfig....
+[2021.11.16-08.20.51:698][391]CompilerResultsLog: Reflection code generated for TESTProjectEditor in 38.1163565 seconds
+[2021.11.16-08.20.51:698][391]CompilerResultsLog: Building TESTProjectEditor...
+[2021.11.16-08.20.51:698][391]CompilerResultsLog: Using Visual Studio 2019 14.29.30133 toolchain (D:\Program Files\VS\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.11.16-08.20.51:698][391]CompilerResultsLog: Building 9 actions with 8 processes...
+[2021.11.16-08.20.51:698][391]CompilerResultsLog:   [1/9] SharedPCH.Engine.ShadowErrors.cpp
+[2021.11.16-08.20.51:698][391]CompilerResultsLog:   D:\GitHub\ProjLab3\TESTProject\Intermediate\Build\Win64\TESTProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.cpp(2): fatal error C1088: Cannot flush compiler intermediate file: 'C:\Users\Paul\AppData\Local\Temp\_CL_b9d2a01edb': No space left on device
+[2021.11.16-08.20.51:723][391]LogMainFrame: MainFrame: Module compiling took 115.617 seconds
+[2021.11.16-08.20.51:756][391]Warning: HotReload failed, recompile failed
+[2021.11.16-08.23.10:931][638]Candidate modules for hot reload:
+[2021.11.16-08.23.10:931][638]  TESTProject
+[2021.11.16-08.23.10:931][638]Launching UnrealBuildTool... [D:/Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TESTProject,9912 TESTProjectEditor Win64 Development -Project="D:/GitHub/ProjLab3/TESTProject/TESTProject.uproject" "D:/GitHub/ProjLab3/TESTProject/TESTProject.uproject"  -IgnoreJunk]
+[2021.11.16-08.23.10:984][638]Warning: Starting HotReload took  0.1s.
+[2021.11.16-08.24.25:787][ 95]CompilerResultsLog: New page: Compilation - Nov 15, 2021, 8:24:25 PM
+[2021.11.16-08.24.25:838][ 95]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\GitHub\ProjLab3).
+[2021.11.16-08.24.25:838][ 95]CompilerResultsLog: Building TESTProjectEditor...
+[2021.11.16-08.24.25:838][ 95]CompilerResultsLog: Using Visual Studio 2019 14.29.30133 toolchain (D:\Program Files\VS\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.11.16-08.24.25:838][ 95]CompilerResultsLog: Building 9 actions with 8 processes...
+[2021.11.16-08.24.25:838][ 95]CompilerResultsLog:   [1/9] SharedPCH.Engine.ShadowErrors.cpp
+[2021.11.16-08.24.25:838][ 95]CompilerResultsLog:   [2/9] MyClass.cpp
+[2021.11.16-08.24.25:838][ 95]CompilerResultsLog:   [3/9] TESTProject.cpp
+[2021.11.16-08.24.25:838][ 95]CompilerResultsLog:   [4/9] yourBlueprintFunctionLibrary.cpp
+[2021.11.16-08.24.25:838][ 95]CompilerResultsLog:   [5/9] TESTProject.init.gen.cpp
+[2021.11.16-08.24.25:838][ 95]CompilerResultsLog:   [6/9] yourBlueprintFunctionLibrary.gen.cpp
+[2021.11.16-08.24.25:838][ 95]CompilerResultsLog:   [7/9] UE4Editor-TESTProject-9912.lib
+[2021.11.16-08.24.25:838][ 95]CompilerResultsLog:      Creating library D:\GitHub\ProjLab3\TESTProject\Intermediate\Build\Win64\UE4Editor\Development\TESTProject\UE4Editor-TESTProject-9912.lib and object D:\GitHub\ProjLab3\TESTProject\Intermediate\Build\Win64\UE4Editor\Development\TESTProject\UE4Editor-TESTProject-9912.exp
+[2021.11.16-08.24.25:838][ 95]CompilerResultsLog:   [8/9] UE4Editor-TESTProject-9912.dll
+[2021.11.16-08.24.25:838][ 95]CompilerResultsLog:      Creating library D:\GitHub\ProjLab3\TESTProject\Intermediate\Build\Win64\UE4Editor\Development\TESTProject\UE4Editor-TESTProject-9912.suppressed.lib and object D:\GitHub\ProjLab3\TESTProject\Intermediate\Build\Win64\UE4Editor\Development\TESTProject\UE4Editor-TESTProject-9912.suppressed.exp
+[2021.11.16-08.24.25:838][ 95]CompilerResultsLog:   [9/9] TESTProjectEditor.target
+[2021.11.16-08.24.25:838][ 95]CompilerResultsLog: Total time in Parallel executor: 73.08 seconds
+[2021.11.16-08.24.25:838][ 95]CompilerResultsLog: Total execution time: 74.61 seconds
+[2021.11.16-08.24.25:914][ 95]LogMainFrame: MainFrame: Module compiling took 75.001 seconds
+[2021.11.16-08.24.26:326][ 95]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'TESTProject' in 0.0281 seconds. Added 1 classes and 2 folders.
+[2021.11.16-08.24.26:476][ 95]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2021.11.16-08.24.29:368][ 95]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.1032 seconds. Added 3792 classes and 946 folders.
+[2021.11.16-08.24.29:514][ 95]Display: HotReload took 78.6s.
+[2021.11.16-08.24.33:946][280]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TheHallOfCovid" FILE="../../../../../GitHub/ProjLab3/TESTProject/Content/Levels/TheHallOfCovid.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.16-08.24.34:174][280]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2021.11.16-08.24.34:410][280]LogSavePackage: Moving '../../../../../GitHub/ProjLab3/TESTProject/Saved/TheHallOfCovidF50AD520450FBD7633B9899036EDA260.tmp' to '../../../../../GitHub/ProjLab3/TESTProject/Content/Levels/TheHallOfCovid.umap'
+[2021.11.16-08.24.34:463][280]AssetCheck: New page: Asset Save: TheHallOfCovid
+[2021.11.16-08.24.34:463][280]LogContentValidation: Display: Validating World /Game/Levels/TheHallOfCovid.TheHallOfCovid
+[2021.11.16-08.24.37:256][440]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2021.11.16-08.24.39:952][440]LogSlate: Window 'Save Content' being destroyed
+[2021.11.16-08.24.40:754][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/uploads_files_2377503_virus_obj" FILE="../../../../../GitHub/ProjLab3/TESTProject/Content/uploads_files_2377503_virus_obj.uasset" SILENT=true
+[2021.11.16-08.24.40:805][440]LogSavePackage: Moving '../../../../../GitHub/ProjLab3/TESTProject/Saved/uploads_files_2377503_virus_objACEC8B8A4B1F0CC24174B1B0C2B10F85.tmp' to '../../../../../GitHub/ProjLab3/TESTProject/Content/uploads_files_2377503_virus_obj.uasset'
+[2021.11.16-08.24.41:766][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/virus_SphereMat" FILE="../../../../../GitHub/ProjLab3/TESTProject/Content/virus_SphereMat.uasset" SILENT=true
+[2021.11.16-08.24.41:772][440]LogSavePackage: Moving '../../../../../GitHub/ProjLab3/TESTProject/Saved/virus_SphereMat6185A508470C882556971AB1B3FF3B49.tmp' to '../../../../../GitHub/ProjLab3/TESTProject/Content/virus_SphereMat.uasset'
+[2021.11.16-08.24.42:681][440]LogSlate: Window 'Message Log' being destroyed
+[2021.11.16-08.24.42:695][440]LogSlate: Window 'TESTProject - Unreal Editor' being destroyed
+[2021.11.16-08.24.42:752][440]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.11.16-08.24.44:424][440]AssetCheck: New page: Asset Save: multiple assets
+[2021.11.16-08.24.44:425][440]LogContentValidation: Display: Validating Material /Game/virus_SphereMat.virus_SphereMat
+[2021.11.16-08.24.44:425][440]LogContentValidation: Display: Validating StaticMesh /Game/uploads_files_2377503_virus_obj.uploads_files_2377503_virus_obj
+[2021.11.16-08.24.44:458][441]Cmd: QUIT_EDITOR
+[2021.11.16-08.24.44:470][441]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2021.11.16-08.24.44:888][441]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2021.11.16-08.24.47:922][441]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2021.11.16-08.24.47:944][441]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2021.11.16-08.24.47:990][441]LogAudio: Display: Audio Device unregistered from world 'TheHallOfCovid'.
+[2021.11.16-08.24.47:992][441]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2021.11.16-08.24.48:168][441]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.16-08.24.48:392][441]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.16-08.24.49:993][441]LogAudio: Display: Audio Device Manager Shutdown

@@ -1,3 +1,3 @@
-D:\GitHub\ProjLab3\TESTProject\Intermediate\Build\Win64\UE4Editor\Development\TESTProject\Definitions.TESTProject.h
-D:\GitHub\ProjLab3\TESTProject\Source\TESTProject\yourBlueprintFunctionLibrary.h
-D:\GitHub\ProjLab3\TESTProject\Intermediate\Build\Win64\UE4Editor\Inc\TESTProject\yourBlueprintFunctionLibrary.generated.h
+E:\ProjLab3\TESTProject\Intermediate\Build\Win64\UE4Editor\Development\TESTProject\Definitions.TESTProject.h
+E:\ProjLab3\TESTProject\Source\TESTProject\yourBlueprintFunctionLibrary.h
+E:\ProjLab3\TESTProject\Intermediate\Build\Win64\UE4Editor\Inc\TESTProject\yourBlueprintFunctionLibrary.generated.h

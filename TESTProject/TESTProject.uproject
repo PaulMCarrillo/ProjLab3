@@ -49,6 +49,10 @@
 		{
 			"Name": "DatasmithContent",
 			"Enabled": false
+		},
+		{
+			"Name": "DataCharts",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [

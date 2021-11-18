@@ -10,9 +10,9 @@
 	{
 		"MajorVersion": 4,
 		"MinorVersion": 27,
-		"PatchVersion": 1,
-		"Changelist": 17735300,
-		"CompatibleChangelist": 17155196,
+		"PatchVersion": 0,
+		"Changelist": 17155196,
+		"CompatibleChangelist": 0,
 		"IsLicenseeVersion": 0,
 		"IsPromotedBuild": 0,
 		"BranchName": "++UE4+Release-4.27",
@@ -121,6 +121,14 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/VirtualProduction/DataCharts/Binaries/Win64/UE4Editor-DataCharts.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/VirtualProduction/DataCharts/Binaries/Win64/UE4Editor-DataChartsEditor.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
@@ -2432,6 +2440,10 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/VirtualProduction/DataCharts/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
@@ -2935,6 +2947,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/VirtualProduction/DataCharts/DataCharts.uplugin",
 			"Type": "UFS"
 		},
 		{

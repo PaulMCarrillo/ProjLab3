@@ -1,1 +1,0 @@
-../../../TESTProject/TESTProject.uproject  /Game/Levels/StatsHall -Messaging -SessionId=7AB7202042A5761A6EC7F28189888871 -SessionOwner="Paul" -SessionName="Launch On Device" -iterative

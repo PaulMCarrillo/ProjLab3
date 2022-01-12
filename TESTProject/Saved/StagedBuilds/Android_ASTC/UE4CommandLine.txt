@@ -1,1 +1,0 @@
-../../../TESTProject/TESTProject.uproject  /Game/Levels/EntranceMap -Messaging -SessionId=569EA6F641BC7B084CD79CA8AD8E23D1 -SessionOwner="Paul" -SessionName="Launch On Device" -iterative
